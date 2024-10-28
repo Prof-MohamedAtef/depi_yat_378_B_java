@@ -6,22 +6,51 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner reader = new Scanner(System.in); // object
-        System.out.println("Enter your username!");
-        String name = reader.nextLine();
-        System.out.println("User name is: " + name);
 
-        System.out.println("Where do you study?");
-        String locationOfStudy = reader.nextLine();
-        System.out.println("Student location is: " + locationOfStudy);
 
-        System.out.println("What is this Digital Egypt that you are talking about! I have never heard about it!");
-        String depiQAnswer = reader.nextLine();
-        System.out.println("DEPI is: "+ depiQAnswer);
+        // assignment operator
 
-        System.out.println("How long is this initiative? Provide answer in months!");
-        int depiLength = reader.nextInt();
-        System.out.println("DEPI length is " + depiLength + " months");
+//        int n = 8;
+//
+//        n += 3;
+//        System.out.println("N = " + n);
+//
+//        n -= 1;
+//
+//        System.out.println("N = " + n);
+//
+//        n *= 3;
+//
+//        System.out.println("N = " + n);
+//
+//        n /= 1.5;
+//        System.out.println("N = " + n);
+//
+//        n %= 2;
+//        System.out.println("N = " + n);
+
+
+//        Scanner reader = new Scanner(System.in); // object
+//        System.out.println("Enter your username!");
+//        String name = reader.nextLine();
+//        System.out.println("User name is: " + name);
+//
+//        System.out.println("Where do you study?");
+//        String locationOfStudy = reader.nextLine();
+//        System.out.println("Student location is: " + locationOfStudy);
+//
+//        System.out.println("What is this Digital Egypt that you are talking about! I have never heard about it!");
+//        String depiQAnswer = reader.nextLine();
+//        System.out.println("DEPI is: "+ depiQAnswer);
+//
+//        System.out.println("How long is this initiative? Provide answer in months!");
+//        int depiLength = reader.nextInt();
+//        System.out.println("DEPI length is " + depiLength + " months");
+
+
+
+
+
 
         // 1.() ^
         // 2. * /
