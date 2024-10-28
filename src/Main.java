@@ -6,6 +6,12 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        // ternary operator
+        int number = 25;
+
+        String message = (number % 2 != 0) ? "Even" : "Odd";
+
+        System.out.println(message);
 
 
         // assignment operator
