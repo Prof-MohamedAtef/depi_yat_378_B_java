@@ -6,6 +6,34 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        // control flow statements   if - else if - else
+
+        // applying if statement with relational operators
+        int length = 14, width = 14;
+//
+//        if(length > width){
+//            System.out.println("Length is greater");
+//        }else {
+//            System.out.println("Width is Greater");
+//        }
+//
+//        if(length < width){
+//            System.out.println("Length = " + length + ", is smaller than " + width);
+//        }
+
+        if (length > width && width == length && width != length){ // return true
+            System.out.println("is greater than or equal");
+        }else {
+            System.out.println("went out");
+        }
+
+//        if (width <= length){
+//            System.out.println("Width is smaller than");
+//        }
+
+
+
+
 
 //        1. Count Rectangle area and perimeter for length = any value and width = any value.
 
@@ -20,10 +48,10 @@ public class Main {
 
 //        2. Use ternary operator to check whether student is succeeded or not in a certain subject.
 
-        int degree = 60;
-
-        String state = (degree >= 60) ? "Success" : "Failed";
-        System.out.println(state);
+//        int degree = 60;
+//
+//        String state = (degree >= 60) ? "Success" : "Failed";
+//        System.out.println(state);
 
         // ternary operator
 //        int number = 25;
