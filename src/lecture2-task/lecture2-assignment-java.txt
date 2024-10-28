@@ -1,0 +1,18 @@
+1. Write a Java program to calculate the area of a rectangle given width = 7 and height = 5. Use multiplication to find the area.
+2. What will be the output of the following code?
+int x = 5;
+System.out.println(x++);
+System.out.println(++x);
+
+3. Given int a = 17 and int b = 4, use the modulus operator to find the remainder of a divided by b.
+4. Use the ternary operator to check if a number is positive or negative. Set int num = -10.
+5. Write a program to check if two numbers, int a = 5 and int b = 8, are equal using the == operator.
+6. Write a program that checks if int age = 25 is between 18 and 30 using logical AND (&&).
+7. Given int score = 95, check if score is either above 90 or below 50 using logical OR (||).
+8. Reverse a boolean value using the logical NOT (!) operator. Given boolean isAvailable = true, print the opposite.
+9. Divide int x = 50 by int y = 3 and print the quotient and remainder.
+10. Calculate the expression 5 + 3 * 2 and then override the precedence using parentheses (5 + 3) * 2.
+11. Use the subtraction assignment operator to decrement a variable by a certain value. Set int num = 10 and subtract 3 from it.
+12. Write a program to compare int a = 20 and int b = 15 and print if a is greater than, equal to, or less than b.
+13.  Given int x = 10, use x += 5 and x *= 2 and print the result after each operation.
+14. Write a program that checks if int score = 85 is a passing score (greater than or equal to 60) using a ternary operator.
