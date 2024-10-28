@@ -6,12 +6,34 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+
+//        1. Count Rectangle area and perimeter for length = any value and width = any value.
+
+//        int length, width;
+
+//        length = 8;
+//        width = 4;
+//        int rectArea = length * width;
+//        int perimeter = (length + width) * 2;
+//        System.out.println("Area of Rectangle when width = "+ width + ", and length = "+ length + " is: " + rectArea);
+//        System.out.println("Perimeter of Rectangle when width = "+ width + ", and length = "+ length + " is: " + perimeter);
+
+//        2. Use ternary operator to check whether student is succeeded or not in a certain subject.
+
+        int degree = 60;
+
+        String state = (degree >= 60) ? "Success" : "Failed";
+        System.out.println(state);
+
         // ternary operator
-        int number = 25;
-
-        String message = (number % 2 != 0) ? "Even" : "Odd";
-
-        System.out.println(message);
+//        int number = 25;
+//
+//        String message = (number % 2 != 0) ? "Even" : "Odd";
+//
+//        System.out.println(message);
+//
+//
+//        i
 
 
         // assignment operator
