@@ -3,6 +3,7 @@ import java.util.Arrays;
 public class SfourSession {
     public static void main(String[] args) {
 
+        //ASCII Table (Decimal Code Representation)
         String firstName; // definition -- declaration
         firstName = "Mohamed Atef"; //immutable data type
         firstName = "Ahmed Atef";
