@@ -11,6 +11,11 @@ public class SfourSession {
         String message = (isRaining) ? "Weather is raining!" : "Weather is not raining!";
         System.out.println(message);
 
+        int number = 11;
+
+        String numState = (number % 2 == 0) ? "Even number" : "Odd number";
+        System.out.println(numState);
+
         // Unary operators
 //        ++
 //        --
