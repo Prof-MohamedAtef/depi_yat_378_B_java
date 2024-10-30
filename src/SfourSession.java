@@ -4,28 +4,39 @@ public class SfourSession {
     public static void main(String[] args) {
 // control flow statements - If statement and IF Else statement
 
+        // Unary operators
+//        ++
+//        --
+//        !
+//        int n = 5;
+//        n++;
+//
+//        System.out.println(n);
+//        n --;
+//        System.out.println(n);
+
         // Logical Operators
         // if else statement then Logical Operators
         //&&, ||, !
 
-        int firstShot, secondShot;
-        boolean isPlaying, isRaining;
-        firstShot = 25;
-        secondShot = 30;
-        isPlaying = false;
-        isRaining = true;
-
-        if ((firstShot > secondShot && !isPlaying) || (isRaining && !isPlaying)) {
-            if (firstShot > secondShot && !isPlaying){
-                isPlaying = true;
-                System.out.println(isPlaying);
-            }else if(isRaining && !isPlaying){
-                isPlaying = false;
-                System.out.println(isPlaying);
-            }
-        } else {
-            System.out.println("If is returning false");
-        }
+//        int firstShot, secondShot;
+//        boolean isPlaying, isRaining;
+//        firstShot = 25;
+//        secondShot = 30;
+//        isPlaying = false;
+//        isRaining = true;
+//
+//        if ((firstShot > secondShot && !isPlaying) || (isRaining && !isPlaying)) {
+//            if (firstShot > secondShot && !isPlaying){
+//                isPlaying = true;
+//                System.out.println(isPlaying);
+//            }else if(isRaining && !isPlaying){
+//                isPlaying = false;
+//                System.out.println(isPlaying);
+//            }
+//        } else {
+//            System.out.println("If is returning false");
+//        }
 
         // Relational Operators
 //        ==, !=, >, <, >=, <=
