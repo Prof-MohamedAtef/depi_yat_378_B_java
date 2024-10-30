@@ -2,35 +2,58 @@ import java.util.Arrays;
 
 public class SfourSession {
     public static void main(String[] args) {
+// control flow statements - If statement and IF Else statement
 
-        // control flow statements
-        // Relational Operators
-//        ==, !=, >, <, >=, <=
-        // if else statement then Relational Operators
-        int width, height;
-        width = 15;
-        height = 12;
-        if (width == height){
-            System.out.println("If is returning true");
+        // Logical Operators
+        // if else statement then Logical Operators
+        //&&, ||, !
+
+        int firstShot, secondShot;
+        boolean isPlaying, isRaining;
+        firstShot = 25;
+        secondShot = 30;
+        isPlaying = false;
+        isRaining = true;
+
+        if ((firstShot > secondShot && !isPlaying) || (isRaining && !isPlaying)) {
+            if (firstShot > secondShot && !isPlaying){
+                isPlaying = true;
+                System.out.println(isPlaying);
+            }else if(isRaining && !isPlaying){
+                isPlaying = false;
+                System.out.println(isPlaying);
+            }
         } else {
             System.out.println("If is returning false");
         }
 
-        if (width != height){
-            System.out.println("Not equal");
-        }
-
-        if (width > height){
-            System.out.println("Width is greater than height");
-        }else if (width < height){
-            System.out.println("Width is smaller than height");
-        }
-
-        if (width >= height){
-            System.out.println("Width is greater than or equal height");
-        } else if (width <= height){
-            System.out.println("Width is smaller than height");
-        }
+        // Relational Operators
+//        ==, !=, >, <, >=, <=
+        // if else statement then Relational Operators
+//        int width, height;
+//        width = 15;
+//        height = 12;
+//        if (width == height){
+//            System.out.println("If is returning true");
+//        } else {
+//            System.out.println("If is returning false");
+//        }
+//
+//        if (width != height){
+//            System.out.println("Not equal");
+//        }
+//
+//        if (width > height){
+//            System.out.println("Width is greater than height");
+//        }else if (width < height){
+//            System.out.println("Width is smaller than height");
+//        }
+//
+//        if (width >= height){
+//            System.out.println("Width is greater than or equal height");
+//        } else if (width <= height){
+//            System.out.println("Width is smaller than height");
+//        }
 
 //        // assignment operators
 //        //=, equal assignment operator
