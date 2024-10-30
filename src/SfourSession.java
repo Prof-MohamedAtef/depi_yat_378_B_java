@@ -4,6 +4,13 @@ public class SfourSession {
     public static void main(String[] args) {
 // control flow statements - If statement and IF Else statement
 
+        // Ternary Operator
+
+        boolean isRaining = true;
+
+        String message = (isRaining) ? "Weather is raining!" : "Weather is not raining!";
+        System.out.println(message);
+
         // Unary operators
 //        ++
 //        --
