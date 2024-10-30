@@ -3,6 +3,11 @@ import java.util.Arrays;
 public class SfourSession {
     public static void main(String[] args) {
 
+        String firstName; // definition -- declaration
+        firstName = "Mohamed Atef"; //immutable data type
+        firstName = "Ahmed Atef";
+        System.out.println(firstName);
+
 //          // 8 primitives are saved into stack and considered as mutable data types
 //        boolean isDone = true;
 //        System.out.println(isDone);
