@@ -3,11 +3,19 @@ import java.util.Arrays;
 public class SfourSession {
     public static void main(String[] args) {
 
+        // arithmetic / mathematical operators
+        int width, height;
+        width = 8;
+        height = 12;
+        // sum operator +
+        int sum = width + height;
+        System.out.println("Area of Rectangle: " + sum);
+
         //ASCII Table (Decimal Code Representation)
-        String firstName; // definition -- declaration
-        firstName = "Mohamed Atef"; //immutable data type
-        firstName = "Ahmed Atef";
-        System.out.println(firstName);
+//        String firstName; // definition -- declaration
+//        firstName = "Mohamed Atef"; //immutable data type
+//        firstName = "Ahmed Atef";
+//        System.out.println(firstName);
 
 //          // 8 primitives are saved into stack and considered as mutable data types
 //        boolean isDone = true;
