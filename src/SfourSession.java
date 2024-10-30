@@ -3,11 +3,42 @@ import java.util.Arrays;
 public class SfourSession {
     public static void main(String[] args) {
 
-        // arithmetic / mathematical operators
+        // assignment operators
+        //=, equal assignment operator
 
         int width, height;
         width = 8;
         height = 12;
+        int total = width * height;
+        System.out.println(total);
+
+        // +=,
+
+        total += 4;
+        System.out.println(total);
+        // -=,
+
+        total -= 3;
+        System.out.println(total);
+        // *=,
+
+        total *= 2;
+        System.out.println(total);
+        // /=,
+
+        total /= 2;
+        System.out.println(total);
+        // %=
+
+        total %= 4;
+        System.out.println(total);
+
+
+//        // arithmetic / mathematical operators
+//
+//        int width, height;
+//        width = 8;
+//        height = 12;
 
 //        // modulus/reminder  operator
 //        int remainder = height % width;
@@ -20,7 +51,6 @@ public class SfourSession {
 //        // multiply operator *
 //        int multiply = width * height;
 //        System.out.println("Multiplication value : " + multiply);
-
 
 
 //        int width, height;
