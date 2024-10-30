@@ -8,9 +8,14 @@ public class SfourSession {
         int width, height;
         width = 8;
         height = 12;
-        // multiply operator *
-        int multiply = width * height;
-        System.out.println("Multiplication value : " + multiply);
+
+        // division operator /
+        int division = width / height;
+        System.out.println(division);
+
+//        // multiply operator *
+//        int multiply = width * height;
+//        System.out.println("Multiplication value : " + multiply);
 
 
 
