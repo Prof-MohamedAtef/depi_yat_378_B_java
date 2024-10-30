@@ -3,35 +3,64 @@ import java.util.Arrays;
 public class SfourSession {
     public static void main(String[] args) {
 
-        // assignment operators
-        //=, equal assignment operator
-
+        // control flow statements
+        // Relational Operators
+//        ==, !=, >, <, >=, <=
+        // if else statement then Relational Operators
         int width, height;
-        width = 8;
+        width = 15;
         height = 12;
-        int total = width * height;
-        System.out.println(total);
+        if (width == height){
+            System.out.println("If is returning true");
+        } else {
+            System.out.println("If is returning false");
+        }
 
-        // +=,
+        if (width != height){
+            System.out.println("Not equal");
+        }
 
-        total += 4;
-        System.out.println(total);
-        // -=,
+        if (width > height){
+            System.out.println("Width is greater than height");
+        }else if (width < height){
+            System.out.println("Width is smaller than height");
+        }
 
-        total -= 3;
-        System.out.println(total);
-        // *=,
+        if (width >= height){
+            System.out.println("Width is greater than or equal height");
+        } else if (width <= height){
+            System.out.println("Width is smaller than height");
+        }
 
-        total *= 2;
-        System.out.println(total);
-        // /=,
-
-        total /= 2;
-        System.out.println(total);
-        // %=
-
-        total %= 4;
-        System.out.println(total);
+//        // assignment operators
+//        //=, equal assignment operator
+//
+//        int width, height;
+//        width = 8;
+//        height = 12;
+//        int total = width * height;
+//        System.out.println(total);
+//
+//        // +=,
+//
+//        total += 4;
+//        System.out.println(total);
+//        // -=,
+//
+//        total -= 3;
+//        System.out.println(total);
+//        // *=,
+//
+//        total *= 2;
+//        System.out.println(total);
+//        // /=,
+//
+//        total /= 2;
+//        System.out.println(total);
+//        // %=
+//
+//        total %= 4;
+//        System.out.println(total);
 
 
 //        // arithmetic / mathematical operators
