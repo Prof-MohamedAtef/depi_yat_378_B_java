@@ -4,12 +4,22 @@ public class SfourSession {
     public static void main(String[] args) {
 
         // arithmetic / mathematical operators
+
         int width, height;
         width = 8;
         height = 12;
-        // sum operator +
-        int sum = width + height;
-        System.out.println("Area of Rectangle: " + sum);
+        // multiply operator *
+        int multiply = width * height;
+        System.out.println("Multiplication value : " + multiply);
+
+
+
+//        int width, height;
+//        width = 8;
+//        height = 12;
+//        // sum operator +
+//        int sum = width + height;
+//        System.out.println("Area of Rectangle: " + sum);
 
         //ASCII Table (Decimal Code Representation)
 //        String firstName; // definition -- declaration
