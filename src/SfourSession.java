@@ -9,9 +9,13 @@ public class SfourSession {
         width = 8;
         height = 12;
 
-        // division operator /
-        int division = width / height;
-        System.out.println(division);
+//        // modulus/reminder  operator
+//        int remainder = height % width;
+//        System.out.println(remainder);
+
+//        // division operator /
+//        int division = width / height;
+//        System.out.println(division);
 
 //        // multiply operator *
 //        int multiply = width * height;
