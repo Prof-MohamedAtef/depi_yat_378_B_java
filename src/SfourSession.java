@@ -1,20 +1,49 @@
 import java.util.Arrays;
+import java.util.Scanner;
 
 public class SfourSession {
     public static void main(String[] args) {
 // control flow statements - If statement and IF Else statement
 
+
+        Scanner reader = new Scanner(System.in);
+        System.out.println("Enter your name");
+        String name = reader.next();
+        System.out.println("My name is: " + name);
+        System.out.println("How old are you?");
+        int age = reader.nextInt();
+        System.out.println("Age is: " + age);
+        System.out.println("Which company do you work at?");
+        String companyName = reader.next();
+        System.out.println("Company name is: " + companyName);
+        char emailLetter = '@';
+        System.out.println("So, your email should be: " + name + emailLetter + companyName);
+        System.out.println("Would you like to join DEPI?");
+        String isJoining = reader.next();
+        if (isJoining.toLowerCase().equals("yes")) {
+            System.out.println("I registered you in DB");
+        }else {
+            System.out.println("I have not registered you in DB");
+        }
+//        boolean isJoining = reader.nextBoolean();
+//        if (isJoining) {
+//            System.out.println("I registered you in DB");
+//        }else {
+//            System.out.println("I have not registered you in DB");
+//        }
+
+
         // Ternary Operator
 
-        boolean isRaining = true;
-
-        String message = (isRaining) ? "Weather is raining!" : "Weather is not raining!";
-        System.out.println(message);
-
-        int number = 11;
-
-        String numState = (number % 2 == 0) ? "Even number" : "Odd number";
-        System.out.println(numState);
+//        boolean isRaining = true;
+//
+//        String message = (isRaining) ? "Weather is raining!" : "Weather is not raining!";
+//        System.out.println(message);
+//
+//        int number = 11;
+//
+//        String numState = (number % 2 == 0) ? "Even number" : "Odd number";
+//        System.out.println(numState);
 
         // Unary operators
 //        ++
