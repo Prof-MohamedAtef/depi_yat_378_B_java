@@ -31,12 +31,24 @@ public class LectureThree {
 
         // control flow statements
         // for loop
-        for(int i = 0; i < names.length; i++){
+        // One-dimensional array / Single Dimensional Array
+        System.out.println("Small Names array as follows:");
+        for (int i = 0; i < names.length; i++) {
             System.out.println(names[i]);
         }
+        System.out.println("");
 
+        for (int i = 0; i < namesArray.length; i++) {
+            System.out.println(namesArray[i]);
+        }
+        System.out.println("Updating Values:");
 
-
+        for (int i = 0; i < namesArray.length; i++) {
+            if (i == 4 || i == 5) {
+                namesArray[i] = names[i-4];
+            }
+            System.out.println(namesArray[i]);
+        }
 
 
         // control statements
@@ -61,8 +73,6 @@ public class LectureThree {
 //
 //
 //
-
-
 
 
         // if statement
