@@ -1,5 +1,7 @@
 package yatzaqziq.lecturethree;
 
+import java.util.Arrays;
+
 public class LectureThree {
     public static void main(String[] args) {
 
@@ -21,12 +23,17 @@ public class LectureThree {
         namesArray[3] = "Sally";
         namesArray[4] = "Ebrahim";
         namesArray[5] = "Haneen";
-        namesArray[7] = "Ali";
+//        namesArray[7] = "Ali";
 
 
-        String[] names = {"ahmed", "mohamed", "asdas"};
+        String[] names = {"ahmed", "mohamed", "Mostafa"};
 
 
+        // control flow statements
+        // for loop
+        for(int i = 0; i < names.length; i++){
+            System.out.println(names[i]);
+        }
 
 
 
