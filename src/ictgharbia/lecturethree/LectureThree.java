@@ -15,7 +15,7 @@ public class LectureThree {
 
         // One-Dimensional Array
 
-        int[] numsArray = new int[5]; // size = 5
+        int[] numsArray = new int[8]; // size = 5
 
         // index -> indices
         numsArray[0] = 1;
@@ -23,6 +23,10 @@ public class LectureThree {
         numsArray[2] = 3;
         numsArray[3] = 4;
         numsArray[4] = 5;
+        numsArray[5] = 6;
+        numsArray[6] = 7;
+        numsArray[7] = 8;
+//        numsArray[8] = 9;
 
         System.out.println(numsArray);
 
