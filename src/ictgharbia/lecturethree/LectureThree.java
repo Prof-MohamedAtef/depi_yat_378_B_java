@@ -4,6 +4,17 @@ public class LectureThree {
     public static void main(String[] args) {
         // Control Flow Statements
 
+        // Garbage Collector - > Clear unused resources
+
+        // Strings - Mutable data type --> Heap -> reference in stack
+        String name = "Mohamed";
+        System.out.println(name);
+        System.out.println("Name Before Update was in: " + System.identityHashCode(name));
+
+        name = "Ahmed";
+        System.out.println(name);
+        System.out.println("Name After Update was in: " + System.identityHashCode(name));
+
 
         // switch statement
 
