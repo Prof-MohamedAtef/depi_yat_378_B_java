@@ -10,6 +10,7 @@ public class Main {
 
         book2.title = "Fundamentals of DB";
 
+        // When references are equal
         book1 = book2;
 
         System.out.println(book1.title);
