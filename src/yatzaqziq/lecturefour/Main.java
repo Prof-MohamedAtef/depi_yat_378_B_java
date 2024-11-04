@@ -5,16 +5,57 @@ public class Main {
         // object
 
         // Arrays with object references
-        Book book1 = new Book();
-        Book book2 = new Book();
 
-        Book[] booksArray = {book1, book2};
-
+        Book[] booksArray = new Book[3];
+        booksArray[0] = new Book();
+        booksArray[1] = new Book();
+        booksArray[2] = new Book();
         booksArray[0].title = "Fundamentals of DB";
         booksArray[1].title = "Al-Ayam";
+
+        // foreach - iterate each element in the array
         for (Book book : booksArray) {
             System.out.println(book.title);
+            book.author = "Elmasri Navath";
         }
+
+        for (Book book : booksArray) {
+            System.out.println(book.author);
+        }
+
+        for(int i = 0; i < booksArray.length; i++) {
+            if (i == 0) {
+                booksArray[i].pages = 1000;
+            }else if (i == 1) {
+                booksArray[i].pages = 500;
+            }
+        }
+
+        System.out.println("---------------");
+        for(Book book : booksArray) {
+            System.out.println(book.pages);
+            System.out.println(book.author);
+            System.out.println(book.title);
+        }
+
+
+
+
+
+
+
+
+
+//        Book book1 = new Book();
+//        Book book2 = new Book();
+//
+//        Book[] booksArray = {book1, book2};
+//
+//        booksArray[0].title = "Fundamentals of DB";
+//        booksArray[1].title = "Al-Ayam";
+//        for (Book book : booksArray) {
+//            System.out.println(book.title);
+//        }
 
 
 
