@@ -17,6 +17,30 @@ public class Book {
     delete book
      */
 
+    // default constructor - parameterless constructor
+    public Book(){
+
+    }
+
+    public Book(String title, String author, String publisherName, int publishYear, int pages, String coverUrl) {
+        this.title = title;
+        this.author = author;
+        this.publisherName = publisherName;
+        this.publishYear = publishYear;
+        this.pages = pages;
+        this.coverUrl = coverUrl;
+    }
+
+    public Book(String title, String author, String publisherName, int publishYear, int pages, String coverUrl, int length) {
+        this.title = title;
+        this.author = author;
+        this.publisherName = publisherName;
+        this.publishYear = publishYear;
+        this.pages = pages;
+        this.coverUrl = coverUrl;
+    }
+
+
     public void saveBook(String title, String author, int pages){
         this.title = title;
         this.author = author;

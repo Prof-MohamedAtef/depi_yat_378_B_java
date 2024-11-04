@@ -6,8 +6,9 @@ public class Main {
 
         // Arrays with object references
 
+//        Book book3 = new Book();
         Book[] booksArray = new Book[3];
-        booksArray[0] = new Book();
+        booksArray[0] = new Book("Al-Ayam", "Taha Hussein", "Nahdit Masr", 1920, 1000, "");
         booksArray[1] = new Book();
         booksArray[2] = new Book();
         booksArray[0].title = "Fundamentals of DB";
