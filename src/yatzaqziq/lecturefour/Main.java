@@ -17,6 +17,16 @@ public class Main {
 //        System.out.println("\n\nBook 2:\n---------\nBook Name: " + book2.title + "\nAuthor: " + book2.author + "\nPages: " + book2.pages + "\n---------\n");
 
 
+//        book1.saveBook("Fundamentals of Database Systems","Elmasri Navath", 1000);
+//
+//        book2.saveBook("Clean Code Architecture", "Daniel Murphy", 2000);
+//
+//
+//        book1.showBook();
+//
+//        book2.showBook();
+
+
 
     }
 }

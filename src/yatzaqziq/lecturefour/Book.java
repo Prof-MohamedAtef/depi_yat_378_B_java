@@ -24,7 +24,10 @@ public class Book {
     }
 
     public void showBook(){
+        String bookData ="Title: "+ this.title+ "\n" +"Author: " + this.author + "\n" + "Pages: " + pages+
 
+                "\nPublisher Name: " + this.publisherName + "\n" +"Publish Year: " + this.publishYear;
+        System.out.println(bookData);
     }
 
     public void deleteBook(){
