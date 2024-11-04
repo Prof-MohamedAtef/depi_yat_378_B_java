@@ -3,21 +3,33 @@ package yatzaqziq.lecturefour;
 public class Main {
     public static void main(String[] args) {
         // object
+
+        // Arrays with object references
         Book book1 = new Book();
         Book book2 = new Book();
 
-        book1.title = "Al Ayam";
+        Book[] booksArray = {book1, book2};
 
-        book2.title = "Fundamentals of DB";
+        booksArray[0].title = "Fundamentals of DB";
+        booksArray[1].title = "Al-Ayam";
+        for (Book book : booksArray) {
+            System.out.println(book.title);
+        }
 
-        // When references are equal
-        book1 = book2;
 
-        System.out.println(book1.title);
-        System.out.println(book2.title);
 
-        book2.title = "XYZ";
-        System.out.println(book2.title);
+//        book1.title = "Al Ayam";
+//
+//        book2.title = "Fundamentals of DB";
+//
+//        // When references are equal
+//        book1 = book2;
+//
+//        System.out.println(book1.title);
+//        System.out.println(book2.title);
+////
+//        book1.title = "XYZ";
+//        System.out.println(book2.title);
 
 
 
