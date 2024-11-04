@@ -6,6 +6,20 @@ public class Main {
         Book book1 = new Book();
         Book book2 = new Book();
 
+        book1.title = "Al Ayam";
+
+        book2.title = "Fundamentals of DB";
+
+        book1 = book2;
+
+        System.out.println(book1.title);
+        System.out.println(book2.title);
+
+        book2.title = "XYZ";
+        System.out.println(book2.title);
+
+
+
 //        book1.title = "Fundamentals of Database Systems";
 //        book1.author = "Elmasri Navath";
 //        book1.pages = 1000;
@@ -25,6 +39,8 @@ public class Main {
 //        book1.showBook();
 //
 //        book2.showBook();
+
+
 
 
 
