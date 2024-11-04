@@ -17,8 +17,10 @@ public class Book {
     delete book
      */
 
-    public void saveBook(){
-
+    public void saveBook(String title, String author, int pages){
+        this.title = title;
+        this.author = author;
+        this.pages = pages;
     }
 
     public void showBook(){
