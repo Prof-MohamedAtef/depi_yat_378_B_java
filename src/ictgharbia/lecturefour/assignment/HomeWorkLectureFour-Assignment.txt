@@ -1,0 +1,34 @@
+Considering the following Vehicle class:
+class Vehicle {
+    String make;
+    String model;
+    int year;
+    double price;
+    double mileage;
+
+    public Vehicle(String make, String model, int year, double price, double mileage) {
+        this.make = make;
+        this.model = model;
+        this.year = year;
+        this.price = price;
+        this.mileage = mileage;
+    }
+}
+
+1. Initialize an array of vehicles with at least five vehicle objects. Each object should be filled with different values for different vehicle  model, year, price, mileage, and make. 
+2. Find and display the vehicle with the lowest mileage.
+3. Count and display the number of vehicles manufactured after 2020.
+4. Calculate and display the average price of all vehicles in the array.
+5. Find and display the vehicle with the highest price.
+6. Display all vehicles that are priced below $20,000.
+7. Sort the vehicles by year in ascending order and display them.
+8. Display all vehicles that are of the make "Toyota".
+9. Calculate the total mileage of all vehicles combined.
+10. Find the average year of manufacture for the vehicles.
+11. Display the make and model of the oldest vehicle in the array.
+12. Display all vehicles with mileage above 20,000.
+13. Check if there is any vehicle in the array manufactured in 2021.
+14. Display the make and model of all vehicles in reverse order of their appearance in the array.
+15. Find the vehicle(s) with the longest mileage and display their information.
+
+It's preferred to use Scanner and make the app simulates as a chat

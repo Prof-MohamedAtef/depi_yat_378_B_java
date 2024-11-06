@@ -8,6 +8,11 @@ public class TShirt {
     String brand;
     int size;
     String color;
+    double price;
+
+    public TShirt(){
+
+    }
 
     // input
     public void addTShirt(String type, String brand, int size, String color) {
@@ -15,6 +20,11 @@ public class TShirt {
         this.brand = brand;
         this.size = size;
         this.color = color;
+    }
+
+    public void setPrice(String type, double price) {
+        this.price = price;
+        this.type = type;
     }
 
 
