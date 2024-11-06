@@ -26,8 +26,18 @@ public class Main {
 //        System.out.println(xShirt.type);
 //        System.out.println(yShirt.type);
 
+
+//        newTshirt.clearType();
+
+
+//        yShirt.clearType();
+
+        // added data through functions
+
         TShirt newTshirt = new TShirt();
-        newTshirt.clearType();
+        newTshirt.addTShirt("Full-Arm", "Zara", 36, "Black");
+
+        newTshirt.display();
 
     }
 }
