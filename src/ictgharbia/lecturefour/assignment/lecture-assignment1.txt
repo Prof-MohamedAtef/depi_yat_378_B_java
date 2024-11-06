@@ -1,0 +1,9 @@
+
+
+
+
+
+
+Consider working on designing a system for a Flights Company, Design a small system that will enable to save the trip and print its information.
+Each trips should include some important data like: TripId, PlaneId, CaptinName, CaptinAge, CrewNumber, PickupCity, DestinationCity, DepartureTime,
+ArrivalTime.
