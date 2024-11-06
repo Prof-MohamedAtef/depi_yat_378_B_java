@@ -10,5 +10,10 @@ public class TShirt {
     String color;
 
 
+    // adding functions
+
+    public void clearType(){
+
+    }
 
 }
