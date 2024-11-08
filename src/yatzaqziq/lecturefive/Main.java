@@ -58,5 +58,31 @@ public class Main {
         Vehicle vehicle = new Vehicle();
 //        vehicle.le   /// static members are not accessible through the class object/instance
 //        Vehicle.length
+
+//        Counter counter = new Counter();
+//        counter.
+//        Counter.count
+
+        Constants constants = new Constants();
+
+
+
+//        if (constants.getState().equals(Constants.DELIVERED)){
+//
+//        }
+
+        System.out.println("Color: " + constants.colorCode);
+        changeColorCode(constants, 'B');
+        System.out.println("Color: " + constants.colorCode);
+
     }
+
+    public static void changeColorCode(Constants theConstant, char colorCode){
+        theConstant = new Constants();
+        theConstant.colorCode = colorCode;
+    }
+
+
+
+
 }
