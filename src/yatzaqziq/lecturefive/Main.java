@@ -1,5 +1,7 @@
 package yatzaqziq.lecturefive;
 
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
 // write your code here
@@ -18,5 +20,15 @@ public class Main {
         vehicle.returnData(0, "");
 
         vehicle.returnData("name", 5);
+
+        Scanner reader = new Scanner(System.in);
+
+        System.out.println("Enter Input");
+        String data = reader.nextLine();
+
+        System.out.println("Input=" + data + "\n" + "Input length: " + vehicle.printLength(data));
+
+        String fullName = vehicle.fullNameToLower("MOHAMED", "ATEF");
+        System.out.println(fullName);
     }
 }

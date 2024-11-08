@@ -70,4 +70,15 @@ public class Vehicle {
     public int printLength(String str){
         return str.length();
     }
+
+
+    public String printLength(String firstName, String lastName){
+        String fullName = firstName + " " + lastName;
+        return fullName.toLowerCase();
+    }
+
+    public String fullNameToLower(String firstName, String lastName){
+        String fullName = firstName + " " + lastName;
+        return fullName.toLowerCase();
+    }
 }
