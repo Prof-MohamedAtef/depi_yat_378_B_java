@@ -9,6 +9,8 @@ public class Vehicle {
     String color;
     String type;
 
+    static int length = 50;
+
     public Vehicle(int wheelsNumber, String type) {
         this.wheelsNumber = wheelsNumber;
         this.type = type;

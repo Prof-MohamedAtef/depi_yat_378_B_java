@@ -3,6 +3,7 @@ package yatzaqziq.lecturefive;
 import java.util.Scanner;
 
 public class Main {
+
     public static void main(String[] args) {
 // write your code here
 
@@ -31,5 +32,31 @@ public class Main {
 //        String fullName = vehicle.fullNameToLower("MOHAMED", "ATEF");
 //        System.out.println(fullName);
 
+//        String hello = "Hello";
+//        System.out.println(hello);
+//
+//        hello += " World!";
+//        System.out.println(hello);
+//
+//        StringBuilder stringBuilder = new StringBuilder("Hello");
+//        stringBuilder.append(" World!");
+//        System.out.println(stringBuilder);
+//
+//
+//        long myLong = 20L;
+//
+//        float myFloat = 50.0f;
+//        int myInt = (int) myLong;
+//
+//        System.out.println(myInt);
+//
+//        short myShort = (short) 3.0;
+
+//        Vehicle vehicle = new Vehicle();
+//        vehicle.
+
+        Vehicle vehicle = new Vehicle();
+//        vehicle.le   /// static members are not accessible through the class object/instance
+//        Vehicle.length
     }
 }
