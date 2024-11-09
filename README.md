@@ -13,3 +13,4 @@
 ![Arrays Illustration](./images/method-constructor-architecture.png)
 
 ![constructor Illustration](./images/constructor-illustration.png)
+![constructor Illustration](./images/constructor-method-illustration.png)
