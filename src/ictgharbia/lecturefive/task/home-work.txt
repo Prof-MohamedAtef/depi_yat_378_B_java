@@ -15,6 +15,4 @@ public class Test {
     }
 }
 
-5. Can we override a static method? Why or why not?
-
-6. Why are constants typically declared as both final and static?
+5. Why are constants typically declared as both final and static?
