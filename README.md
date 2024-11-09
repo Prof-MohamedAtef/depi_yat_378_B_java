@@ -11,3 +11,5 @@
 ![Arrays Illustration](./images/tShirtsArray.jpeg)
 
 ![Arrays Illustration](./images/method-constructor-architecture.png)
+
+![constructor Illustration](./images/constructor-illustration.png)
