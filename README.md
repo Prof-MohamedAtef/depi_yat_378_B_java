@@ -9,3 +9,5 @@
 ![Arrays Illustration](./images/booksArray.jpeg)
 
 ![Arrays Illustration](./images/tShirtsArray.jpeg)
+
+![Arrays Illustration](./images/method-constructor-architecture.png)

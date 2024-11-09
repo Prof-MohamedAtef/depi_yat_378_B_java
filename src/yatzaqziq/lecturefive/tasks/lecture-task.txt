@@ -1,0 +1,10 @@
+
+
+Consider an Animal with the following characteristics: 
+
+Title, Weight, Color, Legs, earsNum, eyesNum, and sound. 
+1. Apply method and constructor overloading on all the last attributes.
+2. print entered and passed parameteres through functions and constructors values.
+3. Add 3 different constructors.
+4. Add one parametereless constructor.
+5. Use method signature to differentiate between different methods with the same name.
