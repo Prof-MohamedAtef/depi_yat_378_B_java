@@ -31,6 +31,11 @@ public class Main {
 //        Animal animal2 = new Animal(width, height);
 
 
+        Vehicle vehicle = new Vehicle();
+        vehicle.run();
+
+        vehicle.countDistance(20);
+
 
 
 
