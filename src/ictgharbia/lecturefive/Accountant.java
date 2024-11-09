@@ -24,7 +24,7 @@ public class Accountant {
 
     public void countSales(int [] weeks){
         for (int i = 0; i < weeks.length; i ++){
-            totalSales += weeks[i];
+            totalSales = totalSales + weeks[i];
         }
         System.out.println("Sales of the Month is: " + totalSales);
     }
