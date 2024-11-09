@@ -53,9 +53,22 @@ public class Animal {
     public Animal() {
     }
 
+    // method overloading -> method signature
 
+    public void printLegs(String firstName, String lastName) {
+        System.out.println(firstName + " " + lastName);
+    }
 
+    public String printLegs(String age){
+        return "";
+    }
 
+    public int printLegs(int year){
+        return year;
+    }
 
+    public void printLegs(){
+        System.out.println("printLegs is Empty");
+    }
 }
 // parameters parameterless
