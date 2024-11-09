@@ -1,0 +1,20 @@
+1. What is the primary difference between static variables and instance variables in terms of memory allocation?
+2. Explain what happens to a static variable when the class it belongs to is loaded into memory.
+3. Why can’t a static method directly access instance variables?
+4.  What is the output of the following code?
+class Counter {
+    static int count = 0;
+    Counter() { count++; }
+}
+
+public class Test {
+    public static void main(String[] args) {
+        Counter c1 = new Counter();
+        Counter c2 = new Counter();
+        System.out.println(Counter.count);
+    }
+}
+
+5. Can we override a static method? Why or why not?
+
+6. Why are constants typically declared as both final and static?
