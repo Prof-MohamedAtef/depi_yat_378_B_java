@@ -14,6 +14,8 @@ public class Accountant {
         System.out.println("Sales of the week are: " + counter);
 
         totalSales = counter;
+
+
     }
 
     public void countSales(int daySale){
@@ -30,7 +32,9 @@ public class Accountant {
     }
 
     public void countTax(){
-        double tax = totalSales * 0.1;
+        double tax = totalSales * Constants.TAX;
         System.out.println("Total tax is $" + tax);
     }
+
+
 }

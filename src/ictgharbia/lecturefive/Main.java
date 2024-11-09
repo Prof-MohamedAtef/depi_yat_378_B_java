@@ -9,18 +9,18 @@ public class Main {
     String firstName;
 
     public static void main(String[] args) {
-//        Animal animal = new Animal();
-//
-//        Animal animal1 = new Animal(0, "lion", "yellow", 250);
-//
-//        Animal animal2 = new Animal("Cat", 4, 60, "Cat");
-//        Animal animal3 = new Animal(4, "Horse", "brown", 400);
-//
-//        Animal animal4 = new Animal("Giraph", 4);
-//
-//        animal3.printLegs("Mohamed", "Atef");
-//
-//        animal4.printLegs();
+        Animal animal = new Animal();
+
+        Animal animal1 = new Animal(0, "lion", "yellow", 250);
+
+        Animal animal2 = new Animal("Cat", 4, 60, "Cat");
+        Animal animal3 = new Animal(4, "Horse", "brown", 400);
+
+        Animal animal4 = new Animal("Giraph", 4);
+
+        animal3.printLegs("Mohamed", "Atef");
+
+        animal4.printLegs();
 
 //
 //        Scanner reader = new Scanner(System.in);
@@ -30,7 +30,7 @@ public class Main {
 //        System.out.println("Enter Height");
 //        int height = reader.nextInt();
 //
-//        Animal animal2 = new Animal(width, height);
+//        Animal animal5 = new Animal(width, height);
 
 
         Vehicle vehicle = new Vehicle();
@@ -59,6 +59,32 @@ public class Main {
 
         accountant.countTax();
 
+        // type casting
+//
+//        long myLong = System.currentTimeMillis();
+//
+//        int myInt = (int) myLong;
+//
+//        String myStr = Integer.toString(myInt);
+//
+//        float myFloat = (float) 1.2;
+//
+//
+//        short myShort = (short) 8.0;
+
+//        Object myObject = myFloat;
+//
+//        myObject = myShort;
+//        myObject = myStr;
+//        myObject = myInt;
+//
+//        myObject = accountant;
+//
+//
+
+
+        System.out.println("Managerial Expenses for creating an Account = " + Constants.MANAGERIAL_EXPENSES);
+        System.out.println(Constants.BASE_URL);
 
 
     }
