@@ -1,5 +1,7 @@
 package ictgharbia.lecturefive;
 
+import org.w3c.dom.css.Rect;
+
 import java.util.Scanner;
 
 public class Main {
@@ -37,6 +39,13 @@ public class Main {
         vehicle.countDistance(20);
 
 
+        Rectangle rectangle = new Rectangle();
+        rectangle.calculateArea(3, 10);
+
+        Accountant accountant = new Accountant();
+        accountant.countSales(150, 500, 600, 800, 1500);
+
+        accountant.countTax();
 
 
     }
