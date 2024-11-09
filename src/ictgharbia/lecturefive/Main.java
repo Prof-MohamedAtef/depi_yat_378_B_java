@@ -82,10 +82,30 @@ public class Main {
 //
 //
 
+//        System.out.println("Managerial Expenses for creating an Account = " + Constants.MANAGERIAL_EXPENSES);
+//        System.out.println(Constants.updateMgmtExpenses(300));
+//
+//        System.out.println(Constants.BASE_URL);
+//
+//        Scanner in = new Scanner(System.in);
+//        System.out.println("Select 1 for Most Popular Movies or 2 for Top Rated Movies");
+//        int x = in.nextInt();
+//        String url = "";
+//        switch (x){
+//            case 1:
+//                 url = Constants.BASE_URL + Constants.MOST_POPULAR;
+//                break;
+//            case 2:
+//                url = Constants.BASE_URL + Constants.TOP_RATED;
+//                break;
+//            default:
+//                break;
+//        }
+//
+//        System.out.println("Movies:" + url);
+//
 
-        System.out.println("Managerial Expenses for creating an Account = " + Constants.MANAGERIAL_EXPENSES);
-        System.out.println(Constants.BASE_URL);
-
+        AppDatabase appDatabase = AppDatabase.getDatabaseInstance();
 
     }
 }

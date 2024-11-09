@@ -1,5 +1,7 @@
 package yatzaqziq.lecturefive;
 
+import ictgharbia.lecturefive.AppDatabase;
+
 public class Vehicle {
     // attributes - properties - characteristics
     boolean hasWheels;
@@ -14,6 +16,7 @@ public class Vehicle {
     public Vehicle(int wheelsNumber, String type) {
         this.wheelsNumber = wheelsNumber;
         this.type = type;
+        AppDatabase appDatabase = new AppDatabase();
     }
 
     public Vehicle() {
