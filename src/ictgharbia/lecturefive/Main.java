@@ -52,6 +52,13 @@ public class Main {
         accountant.countSales(300);
         accountant.countTax();
 
+        System.out.println("\n---Month Sales-----\n");
+
+        int[] monthSales = {3500, 5000, 9000, 15000};
+        accountant.countSales(monthSales);
+
+        accountant.countTax();
+
 
 
     }

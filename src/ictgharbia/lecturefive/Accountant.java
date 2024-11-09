@@ -18,6 +18,15 @@ public class Accountant {
 
     public void countSales(int daySale){
         totalSales = daySale;
+        System.out.println("Sales of the day is: " + totalSales);
+    }
+
+
+    public void countSales(int [] weeks){
+        for (int i = 0; i < weeks.length; i ++){
+            totalSales += weeks[i];
+        }
+        System.out.println("Sales of the Month is: " + totalSales);
     }
 
     public void countTax(){
