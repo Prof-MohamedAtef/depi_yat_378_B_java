@@ -14,3 +14,7 @@
 
 ![constructor Illustration](./images/constructor-illustration.png)
 ![constructor Illustration](./images/constructor-method-illustration.png)
+![constructor Illustration](./images/constructor-method-illustration.png)
+
+![constructor Illustration](./images/static-memory-management.png)
+![constructor Illustration](./images/static-memory-management-2.png)
