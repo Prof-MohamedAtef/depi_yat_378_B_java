@@ -42,10 +42,16 @@ public class Main {
         Rectangle rectangle = new Rectangle();
         rectangle.calculateArea(3, 10);
 
+        // method overloading
         Accountant accountant = new Accountant();
         accountant.countSales(150, 500, 600, 800, 1500);
 
         accountant.countTax();
+
+        System.out.println("\n---Day Sales-----\n");
+        accountant.countSales(300);
+        accountant.countTax();
+
 
 
     }

@@ -16,7 +16,9 @@ public class Accountant {
         totalSales = counter;
     }
 
-
+    public void countSales(int daySale){
+        totalSales = daySale;
+    }
 
     public void countTax(){
         double tax = totalSales * 0.1;
