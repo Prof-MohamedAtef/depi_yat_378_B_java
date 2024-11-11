@@ -1,5 +1,10 @@
 package yatzaqziq.lecturesix.lecture;
 
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+import java.util.Date;
+
 public class Main {
     public static void main(String[] args) {
         Book book = new Book("Tahah Hussein", "Al Ayam", "Dar Misr");
@@ -71,5 +76,55 @@ public class Main {
             }
         }
 
+
+        LocalDate localDate = LocalDate.now();
+//        String month = localDate.getMonth().toString();
+//        System.out.println(month);
+//
+//        int dayOfMonth = localDate.getDayOfMonth();
+//        System.out.println("Day Of Month: " + dayOfMonth);
+//
+//        int monthValue = localDate.getMonthValue();
+//        System.out.println("Month of Year: " + monthValue);
+//
+//        int year = localDate.getYear();
+//        System.out.println("Year: " + year);
+//
+//        System.out.println("Date: " +dayOfMonth+"/"+monthValue+"/"+year);
+//
+//        String pattern = "MM-dd-yyyy";
+//        SimpleDateFormat simpleDateFormat = new SimpleDateFormat(pattern);
+//        String date = simpleDateFormat.format(new Date());
+//        System.out.println(date);
+
+//        LocalDate date = LocalDate.of(2024, 11, 6);
+//
+//        // Format date as "6 Nov, 2024"
+//        String formattedDate = date.format(DateTimeFormatter.ofPattern("d MMM, yyyy"));
+//
+//        // Append the ordinal suffix
+//        String dayWithSuffix = addOrdinalSuffix(date.getDayOfMonth());
+//        String finalFormattedDate = dayWithSuffix + formattedDate.substring(1);
+//
+//        System.out.println(finalFormattedDate); // Output: 6th Nov, 2024
+
+        LocalDate date = LocalDate.of(1992, 11, 6);
+        String formattedDate = date.format(DateTimeFormatter.ofPattern("EEEE, MMMM d, yyyy"));
+        System.out.println(formattedDate);
+
+
+    }
+
+
+    private static String addOrdinalSuffix(int day) {
+        if (day >= 11 && day <= 13) {
+            return day + "th";
+        }
+        switch (day % 10) {
+            case 1:  return day + "st";
+            case 2:  return day + "nd";
+            case 3:  return day + "rd";
+            default: return day + "th";
+        }
     }
 }
