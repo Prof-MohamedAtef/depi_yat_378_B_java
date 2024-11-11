@@ -3,6 +3,7 @@ package yatzaqziq.lecturesix.lecture;
 import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.Scanner;
 
@@ -138,28 +139,89 @@ public class Main {
 //            System.out.println();
 //        }
 
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
+//
+//
+//        System.out.println("Enter Rows of the Matrix");
+//        int row = scanner.nextInt();
+//        System.out.println("Enter Columns of the Matrix");
+//        int column = scanner.nextInt();
+//        int[][] twoDimensionalArr = new int[row][column];
+//
+//        for (int i = 0; i < row; i++) {
+//            for (int j = 0; j < column; j++) {
+//                System.out.println("Enter Value of ["+i+"]"+"["+j+"]");
+//                int x = scanner.nextInt();
+//                twoDimensionalArr[i][j] = x;
+//            }
+//        }
+
+//        for (int i = 0; i < row; i++) {
+//            for (int j = 0; j < column; j++) {
+//                System.out.println(twoDimensionalArr[i][j]);
+//            }
+//        }
+
+//        int i = 0;
+//        int[] nums = {50, 60, 80, 90};
+//
+//        for (int i =0 ; i<nums.length; i++){
+////            if (i == 1 || i == 3) continue; // skip the current loop
+//            if (i == 1) break;
+//            System.out.println(nums[i]);
+//        }
+//        while (i < nums.length){
+//            if (nums[i] == 60) break;
+//            System.out.println(nums[i]);
+//            i++;
+//        }
 
 
-        System.out.println("Enter Rows of the Matrix");
-        int row = scanner.nextInt();
-        System.out.println("Enter Columns of the Matrix");
-        int column = scanner.nextInt();
-        int[][] twoDimensionalArr = new int[row][column];
+//        do{
+//            System.out.println(nums[i]);
+//            i++;
+//        }while (i < nums.length);
 
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < column; j++) {
-                System.out.println("Enter Value of ["+i+"]"+"["+j+"]");
-                int x = scanner.nextInt();
-                twoDimensionalArr[i][j] = x;
-            }
+
+        ArrayList<String> strings = new ArrayList<String>();
+
+        strings.add(0, "Mohamed");
+        strings.add(1, "");
+        strings.add(2, "Maged");
+        strings.add("Hussein");
+        strings.add("Salah");
+
+
+        for (String str : strings) {
+            System.out.println(str);
         }
 
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < column; j++) {
-                System.out.println(twoDimensionalArr[i][j]);
-            }
+        strings.remove(strings.size() - 1);
+        for (String str : strings) {
+            System.out.println(str);
         }
+
+        System.out.println("\n--------\n");
+        Book book2 = new Book("Elmasry Navath", "Fundamentals of DB", "USA Publisher");
+        Book book3 = new Book("Mohamed Salah", "Fundamentals of Football", "British Publisher");
+        ArrayList<Book> bookArrayList = new ArrayList<>();
+        bookArrayList.add(book);
+        bookArrayList.add(book2);
+        bookArrayList.add(book3);
+
+        for (Book book1 : bookArrayList) {
+            System.out.println(book1.getAuthorName());
+        }
+
+        for (int i = 0; i < bookArrayList.size(); i++) {
+            String auther = bookArrayList.get(i).getPublisher();
+            System.out.println(auther);
+        }
+
+        int index = bookArrayList.indexOf(book3);
+        System.out.println("Book is at Index: " + index);
+
+
 
 
     }
