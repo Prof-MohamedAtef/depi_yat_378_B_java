@@ -191,35 +191,48 @@ public class Main {
         strings.add("Hussein");
         strings.add("Salah");
 
-
-        for (String str : strings) {
-            System.out.println(str);
+        if (strings.contains("Hussein")){
+            System.out.println("Hussein is existing");
         }
 
-        strings.remove(strings.size() - 1);
-        for (String str : strings) {
-            System.out.println(str);
-        }
+//
+//        for (String str : strings) {
+//            System.out.println(str);
+//        }
+//
+//        strings.remove(strings.size() - 1);
+//        for (String str : strings) {
+//            System.out.println(str);
+//        }
+//
+//        System.out.println("\n--------\n");
+//        Book book2 = new Book("Elmasry Navath", "Fundamentals of DB", "USA Publisher");
+//        Book book3 = new Book("Mohamed Salah", "Fundamentals of Football", "British Publisher");
+//        ArrayList<Book> bookArrayList = new ArrayList<>();
+//        bookArrayList.add(book);
+//        bookArrayList.add(book2);
+//        bookArrayList.add(book3);
+//
+//        for (Book book1 : bookArrayList) {
+//            System.out.println(book1.getAuthorName());
+//        }
+//
+//        for (int i = 0; i < bookArrayList.size(); i++) {
+//            String auther = bookArrayList.get(i).getPublisher();
+//
+//
+//            System.out.println(auther);
+//        }
+//
+//        for (int i = 0; i < bookArrayList.size(); i++) {
+//             if (bookArrayList.contains(book2)){
+//
+//             }
+//        }
+//
+//        int index = bookArrayList.indexOf(book3);
+//        System.out.println("Book is at Index: " + index);
 
-        System.out.println("\n--------\n");
-        Book book2 = new Book("Elmasry Navath", "Fundamentals of DB", "USA Publisher");
-        Book book3 = new Book("Mohamed Salah", "Fundamentals of Football", "British Publisher");
-        ArrayList<Book> bookArrayList = new ArrayList<>();
-        bookArrayList.add(book);
-        bookArrayList.add(book2);
-        bookArrayList.add(book3);
-
-        for (Book book1 : bookArrayList) {
-            System.out.println(book1.getAuthorName());
-        }
-
-        for (int i = 0; i < bookArrayList.size(); i++) {
-            String auther = bookArrayList.get(i).getPublisher();
-            System.out.println(auther);
-        }
-
-        int index = bookArrayList.indexOf(book3);
-        System.out.println("Book is at Index: " + index);
 
 
 
