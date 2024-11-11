@@ -1,0 +1,15 @@
+1.  Write a code snippet to add the elements "Apple," "Banana," and "Cherry" to an ArrayList and then display the contents.
+2. How can you remove the element at index 1 from an ArrayList?
+3. How can you check if an ArrayList contains a specific element, such as "Banana"?
+4. Write a code snippet to iterate through an ArrayList of integers using an enhanced for loop.
+5. How do you get the size of an ArrayList?
+6. How would you clear all elements from an ArrayList?
+7. What happens if you try to access an index that is out of bounds in an ArrayList?
+8. Write a method public static int sum(ArrayList<Integer> list) that returns the sum of all integers in an ArrayList.
+9. Write a method public static ArrayList<Integer> findDuplicates(ArrayList<Integer> list) that returns a new ArrayList containing only the duplicate elements from the original list. If an element appears more than once in the input ArrayList, it should only appear once in the result list
+10. Create a method public static ArrayList<String> reverseList(ArrayList<String> list) that takes an ArrayList of strings and returns a new ArrayList with the elements in reverse order.
+11. Write a method public static ArrayList<Integer> commonElements(ArrayList<Integer> list1, ArrayList<Integer> list2) that finds and returns a new ArrayList of common elements between two ArrayLists of integers.
+12. Write a method public static void removeEvenNumbers(ArrayList<Integer> list) that removes all even numbers from an ArrayList of integers. Modify the original list in place.
+13. Write a method public static ArrayList<Integer> topNLargest(ArrayList<Integer> list, int n) that returns a new ArrayList with the top n largest elements from the input list in descending order. Assume n is less than or equal to the size of the list.
+14. Write a method public static boolean isIdentityMatrix(int[][] matrix) that checks if a given square matrix is an identity matrix. An identity matrix has 1s on the main diagonal and 0s elsewhere.
+15. Write a method public static int[][] rotateMatrix(int[][] matrix) that rotates a square matrix 90 degrees clockwise. Return the rotated matrix as a new 2D array.
