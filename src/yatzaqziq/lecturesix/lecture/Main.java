@@ -4,6 +4,7 @@ import java.text.SimpleDateFormat;
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
@@ -28,13 +29,13 @@ public class Main {
         String fourthName = "Mohamed Atef";
 
         System.out.println("\n---------\n");
-        if (firstName.equals(secondName) && thirdName.equals(fourthName) ) {
-            if (firstName.equals(secondName)){
+        if (firstName.equals(secondName) && thirdName.equals(fourthName)) {
+            if (firstName.equals(secondName)) {
                 System.out.println(firstName + " Twice Equal " + secondName);
             } else if (thirdName.equals(fourthName)) {
                 System.out.println(thirdName + " Third Equal " + fourthName);
             }
-        }else {
+        } else {
             System.out.println("Not Equal");
         }
 
@@ -47,31 +48,31 @@ public class Main {
         int goalsNumber = 0;
         goalsNumber = 3;
 
-        System.out.println("I Scored " + goalsNumber + " "+ (goalsNumber ==1 ? "goal" : "goals"));
+        System.out.println("I Scored " + goalsNumber + " " + (goalsNumber == 1 ? "goal" : "goals"));
 
         Students mohamedStudent = new Students(20, "Mohamed", false, false, false, 0);
         Students ahmedStudent = new Students(22, "Ahmed", false, false, false, 0);
 
-        if (mohamedStudent.getAge() == ahmedStudent.getAge()){
+        if (mohamedStudent.getAge() == ahmedStudent.getAge()) {
             System.out.println("Mohamed equal Ahmed in age : " + mohamedStudent.getAge());
-        }else {
-            if (mohamedStudent.getAge() > ahmedStudent.getAge()){
+        } else {
+            if (mohamedStudent.getAge() > ahmedStudent.getAge()) {
                 System.out.println("Mohamed is Greater than Ahmed in Age");
-            }else if (ahmedStudent.getAge() > mohamedStudent.getAge()){
+            } else if (ahmedStudent.getAge() > mohamedStudent.getAge()) {
                 System.out.println("Ahmed is Greater than Mohamed in Age");
                 ahmedStudent.setGraduated(false);
                 ahmedStudent.setMarried(true);
                 ahmedStudent.setHasSon(false);
-                if (ahmedStudent.isGraduated()){
+                if (ahmedStudent.isGraduated()) {
                     System.out.println("Ahmed has Graduated");
-                    if (!ahmedStudent.isMarried()){
+                    if (!ahmedStudent.isMarried()) {
                         System.out.println("Ahmed Has not married");
-                    }else System.out.println("Ahmed has Married");
-                }else {
+                    } else System.out.println("Ahmed has Married");
+                } else {
                     System.out.println("Ahmed has not graduated");
-                    if (!ahmedStudent.isMarried()){
+                    if (!ahmedStudent.isMarried()) {
                         System.out.println("Ahmed has not married");
-                    }else System.out.println("Ahmed has married");
+                    } else System.out.println("Ahmed has married");
                 }
             }
         }
@@ -113,29 +114,54 @@ public class Main {
 //        System.out.println(formattedDate);
 
 
-        int[] arr = new int[4];
+//        int[] arr = new int[4];
+//
+//        for (int i = 0; i < arr.length; i ++){
+//            arr[i] = i*3;
+//            System.out.println(arr[i]);
+//        }
+//
+//        int row = 3;
+//        int column = 3;
+//
+//        int[][] twoDimensionalArr = new int[row][column];
+//
+//        for (int i = 0; i < row; i++){
+//            for (int j = 0; j < column; j++) {
+//                twoDimensionalArr[i][j] = ((i+j)*2);
+//            }
+//        }
+//        for (int i= 0; i< row; i++){
+//            for (int j = 0; j < column; j++) {
+//                System.out.print(twoDimensionalArr[i][j] + " | ");
+//            }
+//            System.out.println();
+//        }
 
-        for (int i = 0; i < arr.length; i ++){
-            arr[i] = i*3;
-            System.out.println(arr[i]);
-        }
+        Scanner scanner = new Scanner(System.in);
 
-        int row = 3;
-        int column = 3;
 
+        System.out.println("Enter Rows of the Matrix");
+        int row = scanner.nextInt();
+        System.out.println("Enter Columns of the Matrix");
+        int column = scanner.nextInt();
         int[][] twoDimensionalArr = new int[row][column];
 
-        for (int i = 0; i < row; i++){
+        for (int i = 0; i < row; i++) {
             for (int j = 0; j < column; j++) {
-                twoDimensionalArr[i][j] = ((i+j)*2);
+                System.out.println("Enter Value of ["+i+"]"+"["+j+"]");
+                int x = scanner.nextInt();
+                twoDimensionalArr[i][j] = x;
             }
         }
-        for (int i= 0; i< row; i++){
+
+        for (int i = 0; i < row; i++) {
             for (int j = 0; j < column; j++) {
-                System.out.print(twoDimensionalArr[i][j] + " | ");
+                System.out.println(twoDimensionalArr[i][j]);
             }
-            System.out.println();
         }
+
+
     }
 
 
