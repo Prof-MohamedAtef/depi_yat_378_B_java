@@ -108,23 +108,46 @@ public class Main {
 //
 //        System.out.println(finalFormattedDate); // Output: 6th Nov, 2024
 
-        LocalDate date = LocalDate.of(1992, 11, 6);
-        String formattedDate = date.format(DateTimeFormatter.ofPattern("EEEE, MMMM d, yyyy"));
-        System.out.println(formattedDate);
+//        LocalDate date = LocalDate.of(1992, 11, 6);
+//        String formattedDate = date.format(DateTimeFormatter.ofPattern("EEEE, MMMM d, yyyy"));
+//        System.out.println(formattedDate);
 
 
+        int[] arr = new int[4];
+
+        for (int i = 0; i < arr.length; i ++){
+            arr[i] = i*3;
+            System.out.println(arr[i]);
+        }
+
+        int row = 3;
+        int column = 3;
+
+        int[][] twoDimensionalArr = new int[row][column];
+
+        for (int i = 0; i < row; i++){
+            for (int j = 0; j < column; j++) {
+                twoDimensionalArr[i][j] = ((i+j)*2);
+            }
+        }
+        for (int i= 0; i< row; i++){
+            for (int j = 0; j < column; j++) {
+                System.out.print(twoDimensionalArr[i][j] + " | ");
+            }
+            System.out.println();
+        }
     }
 
 
-    private static String addOrdinalSuffix(int day) {
-        if (day >= 11 && day <= 13) {
-            return day + "th";
-        }
-        switch (day % 10) {
-            case 1:  return day + "st";
-            case 2:  return day + "nd";
-            case 3:  return day + "rd";
-            default: return day + "th";
-        }
-    }
+//    private static String addOrdinalSuffix(int day) {
+//        if (day >= 11 && day <= 13) {
+//            return day + "th";
+//        }
+//        switch (day % 10) {
+//            case 1:  return day + "st";
+//            case 2:  return day + "nd";
+//            case 3:  return day + "rd";
+//            default: return day + "th";
+//        }
+//    }
 }
