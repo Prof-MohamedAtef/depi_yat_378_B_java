@@ -18,3 +18,5 @@
 
 ![constructor Illustration](./images/static-memory-management.png)
 ![constructor Illustration](./images/static-memory-management-2.png)
+
+![constructor Illustration](./images/two-d-array.png)
