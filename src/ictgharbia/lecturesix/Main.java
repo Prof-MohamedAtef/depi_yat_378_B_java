@@ -141,5 +141,83 @@ public class Main {
 
 //        dd MMM yyyy hh:mm a
 //        yyyy-MM-dd'T'HH:mm:ss.SSS'Z'
+
+
+        // Two Dimensional Array
+
+//        int [] nums = new int[10];
+//        for (int i = 0; i < nums.length; i++) {
+//            System.out.println(nums[i]);
+//        }
+
+        // create a matrix with 2D array
+        // row 3
+        // columns 3
+        int row, column;
+        row = 3;
+        column = 3;
+        int [][] numbers = new int[row][column];
+
+        int [][] secondNums = new int[row][column];
+//
+////        numbers[0][0] = 0;
+//        numbers[0][1] = 60;
+//        numbers[0][2] = 70;
+//        numbers[1][0] = 80;
+//        numbers[1][1] = 90;
+////        numbers[1][2] = 0;
+//        numbers[2][0] = 120;
+//        numbers[2][1] = 130;
+////        numbers[2][2] = 0;
+
+        int initialValue = 25;
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < column; j++) {
+                initialValue+= 25;
+                numbers[i][j] = initialValue;
+            }
+        }
+
+
+        for (int i = 0; i < row; i ++){
+            for(int k = 0; k < column; k ++){
+                System.out.print(numbers[i][k] + " | ");
+            }
+            System.out.println();
+        }
+
+        for (int i = 0; i < row; i ++){
+            for(int k = 0; k < column; k ++){
+                secondNums[i][k] = numbers[i][k] * numbers[i][k];
+            }
+        }
+
+        System.out.println("\n----(numbers^2)----\n");
+
+        for (int i = 0; i < row; i ++){
+            for(int k = 0; k < column; k ++){
+                System.out.print(secondNums[i][k]+ " | ");
+            }
+            System.out.println();
+        }
+
+        System.out.println("\n----(Average of Numbers)----\n");
+
+        int averageCounter = 0;
+        int loopsNumber = 0;
+        for (int i = 0; i < row; i ++){
+            for(int k = 0; k < column; k ++){
+                averageCounter += numbers[i][k];
+                loopsNumber++;
+                System.out.print(averageCounter + " | ");
+            }
+            System.out.println();
+        }
+
+        int average = averageCounter / loopsNumber;
+        System.out.println("Total Values: " + averageCounter);
+        System.out.println("Number of Iterations: " + loopsNumber);
+        System.out.println("Average of Numbers: " + average);
+
     }
 }
