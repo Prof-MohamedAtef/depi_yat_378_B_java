@@ -1,0 +1,12 @@
+1. Write a Java program to add two matrices of the same size.
+2. Write a Java program to multiply two matrices. Assume the first matrix's column size equals the second matrix's row size.
+3. Write a Java program to find the transpose of a given matrix.
+4. Write a Java program to find the maximum element in a two-dimensional array.
+5. Write a Java program to calculate the sum of each row and column of a 2D array.
+6. Write a Java program to check if a square matrix is symmetric (equal to its transpose).
+7. Write a Java program to find the sum of the main diagonal elements of a square
+8. Write a Java program to find the saddle point of a matrix. A saddle point is an element which is the minimum in its row and maximum in its column.
+9. Write a Java program to print the elements of a 2D matrix in a spiral order.
+10. Write a Java program to rotate a matrix by 90 degrees (clockwise).
+11. Write a Java program to find the maximum and minimum elements in an array (1D array).
+12. Write a Java program to find and print duplicate elements in an array.
