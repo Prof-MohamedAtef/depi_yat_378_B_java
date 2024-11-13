@@ -92,50 +92,50 @@ public class Main {
 //            }
 //        }
 
-        LocalDate now = LocalDate.now();
-        System.out.println(now);
-
-        LocalDate dayDate =  now.plusDays(4);
-        System.out.println(dayDate);
-
-        int year = now.getYear();
-        System.out.println(year);
-
-        int month = now.getMonthValue();
-        System.out.println(month);
-
-        int day = now.getDayOfMonth();
-        System.out.println(day);
-
-        DayOfWeek dayOfWeek = now.getDayOfWeek();
-        int datOfWeekValue = dayOfWeek.getValue();
-        System.out.println(datOfWeekValue);
-
-        String displayDayTitle= dayOfWeek.toString();
-        System.out.println(displayDayTitle);
-
-        String monthDisplayTitle = now.getMonth().toString();
-        System.out.println(monthDisplayTitle);
-
-        String formattedDateDay = now.format(DateTimeFormatter.ofPattern("EEEE, MMM dd, yyyy"));
-        System.out.println(formattedDateDay);
-
-        String normalDate = now.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
-        System.out.println(normalDate);
-
+//        LocalDate now = LocalDate.now();
+//        System.out.println(now);
 //
-        String normalDate1 = now.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
-        System.out.println(normalDate1);
-
-        String normalDate2 = now.format(DateTimeFormatter.ofPattern("MMM dd, yyyy"));
-        System.out.println(normalDate2);
-
-        String normalDate3 = now.format(DateTimeFormatter.ofPattern("dd MMMM yyyy"));
-        System.out.println(normalDate3);
-
-        LocalDateTime localDateTime = LocalDateTime.now();
-        String normalDate4 = localDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
-        System.out.println(normalDate4);
+//        LocalDate dayDate =  now.plusDays(4);
+//        System.out.println(dayDate);
+//
+//        int year = now.getYear();
+//        System.out.println(year);
+//
+//        int month = now.getMonthValue();
+//        System.out.println(month);
+//
+//        int day = now.getDayOfMonth();
+//        System.out.println(day);
+//
+//        DayOfWeek dayOfWeek = now.getDayOfWeek();
+//        int datOfWeekValue = dayOfWeek.getValue();
+//        System.out.println(datOfWeekValue);
+//
+//        String displayDayTitle= dayOfWeek.toString();
+//        System.out.println(displayDayTitle);
+//
+//        String monthDisplayTitle = now.getMonth().toString();
+//        System.out.println(monthDisplayTitle);
+//
+//        String formattedDateDay = now.format(DateTimeFormatter.ofPattern("EEEE, MMM dd, yyyy"));
+//        System.out.println(formattedDateDay);
+//
+//        String normalDate = now.format(DateTimeFormatter.ofPattern("yyyy-MM-dd"));
+//        System.out.println(normalDate);
+//
+////
+//        String normalDate1 = now.format(DateTimeFormatter.ofPattern("dd/MM/yyyy"));
+//        System.out.println(normalDate1);
+//
+//        String normalDate2 = now.format(DateTimeFormatter.ofPattern("MMM dd, yyyy"));
+//        System.out.println(normalDate2);
+//
+//        String normalDate3 = now.format(DateTimeFormatter.ofPattern("dd MMMM yyyy"));
+//        System.out.println(normalDate3);
+//
+//        LocalDateTime localDateTime = LocalDateTime.now();
+//        String normalDate4 = localDateTime.format(DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss"));
+//        System.out.println(normalDate4);
 //
 //
 
