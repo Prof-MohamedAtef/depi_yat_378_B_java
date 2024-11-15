@@ -1,14 +1,6 @@
 package ictgharbia.lecturesix;
 
-import yatzaqziq.lectureseven.lecture.Book;
-import yatzaqziq.lectureseven.lecture.Story;
-import yatzaqziq.lectureseven.test.Vehicle;
-
-import java.time.DayOfWeek;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-import java.util.Scanner;
+import yatzaqziq.lectureseven.lecture.books.Story;
 
 public class Main {
     public static void main(String[] args) {

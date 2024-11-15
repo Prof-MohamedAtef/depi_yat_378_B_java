@@ -1,4 +1,4 @@
-package yatzaqziq.lectureseven.lecture;
+package yatzaqziq.lectureseven.lecture.books;
 
 
 // Inheritance
