@@ -9,4 +9,13 @@ public class Book {
     void printTitle() {
 
     }
+
+    public void calculatePrice(int pages, int pagePrice){
+        System.out.println(pages * pagePrice);
+    }
+
+    public void calculatePrice(int pages, int pagePrice, double discount){
+        System.out.println(pages * pagePrice* discount);
+    }
 }
+

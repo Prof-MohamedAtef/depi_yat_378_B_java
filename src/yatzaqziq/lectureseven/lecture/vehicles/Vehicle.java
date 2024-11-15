@@ -6,6 +6,8 @@ public class Vehicle {
     String model;
     String color;
 
+    int distance;
+
     public Vehicle(){
 
     }
@@ -24,4 +26,11 @@ public class Vehicle {
     public void printVehicle(){
         System.out.println("Vehicle Data: " + this.brand + " " + this.model + " " + this.color);
     }
+
+    public void calculateDistance(int speed, int time){
+        distance = speed * time;
+        System.out.println("Vehicle Distance: " + distance);
+    }
+
+
 }
