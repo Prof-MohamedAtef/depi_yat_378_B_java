@@ -1,0 +1,7 @@
+Considering the Animals as the topic of this task:
+1. Set the animal as the parent class with the important attributes of the animals.
+2. Create a child constructor named Lion or Giraph.
+3. Let the child class inherit some attributes of the parent class Animal.
+4. print the important info about the child animal.
+5. use super keyword while working when passing data to the parent class.
+
