@@ -21,4 +21,4 @@
 
 ![constructor Illustration](./images/two-d-array.png)
 
-![constructor Illustration](./images/inheritance-polymorphism.png)
+![Inheritance and Polymorphism](./images/inheritance-polymorphism.png)
