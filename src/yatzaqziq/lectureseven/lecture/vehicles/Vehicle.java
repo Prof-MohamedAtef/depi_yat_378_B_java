@@ -1,5 +1,7 @@
 package yatzaqziq.lectureseven.lecture.vehicles;
 
+import yatzaqziq.lectureseven.lecture.books.Book;
+
 public class Vehicle {
     String brand;
     String type;

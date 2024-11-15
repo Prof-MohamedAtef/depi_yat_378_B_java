@@ -41,10 +41,18 @@ public class Main {
         story.calculatePrice(500, 1);
 
         Book book = new Story();
+
         book.calculatePrice(350, 2);
         book = new Book();
         book.calculatePrice(250, 3, 0.2); /// compile time
 
+        if (book instanceof Story){
+            ((Story) book).printStory();
+        }
+
+
+
+//        book.p
 
     }
 }
