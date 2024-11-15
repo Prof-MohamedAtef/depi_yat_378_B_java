@@ -1,5 +1,7 @@
 package ictgharbia.lecturesix;
 
+import yatzaqziq.lectureseven.test.Vehicle;
+
 import java.time.DayOfWeek;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
@@ -153,12 +155,12 @@ public class Main {
         // create a matrix with 2D array
         // row 3
         // columns 3
-        int row, column;
-        row = 3;
-        column = 3;
-        int[][] numbers = new int[row][column];
-
-        int[][] secondNums = new int[row][column];
+//        int row, column;
+//        row = 3;
+//        column = 3;
+//        int[][] numbers = new int[row][column];
+//
+//        int[][] secondNums = new int[row][column];
 //
 ////        numbers[0][0] = 0;
 //        numbers[0][1] = 60;
@@ -170,84 +172,87 @@ public class Main {
 //        numbers[2][1] = 130;
 ////        numbers[2][2] = 0;
 
-        int initialValue = 25;
-        for (int i = 0; i < row; i++) {
-            for (int j = 0; j < column; j++) {
-                initialValue += 25;
-                numbers[i][j] = initialValue;
-            }
-        }
+//        int initialValue = 25;
+//        for (int i = 0; i < row; i++) {
+//            for (int j = 0; j < column; j++) {
+//                initialValue += 25;
+//                numbers[i][j] = initialValue;
+//            }
+//        }
+//
+//
+//        for (int i = 0; i < row; i++) {
+//            for (int k = 0; k < column; k++) {
+//                System.out.print(numbers[i][k] + " | ");
+//            }
+//            System.out.println();
+//        }
+//
+//        for (int i = 0; i < row; i++) {
+//            for (int k = 0; k < column; k++) {
+//                secondNums[i][k] = numbers[i][k] * numbers[i][k];
+//            }
+//        }
+//
+//        System.out.println("\n----(numbers^2)----\n");
+//
+//        for (int i = 0; i < row; i++) {
+//            for (int k = 0; k < column; k++) {
+//                System.out.print(secondNums[i][k] + " | ");
+//            }
+//            System.out.println();
+//        }
+//
+//        System.out.println("\n----(Average of Numbers)----\n");
+//
+//        int averageCounter = 0;
+//        int loopsNumber = 0;
+//        for (int i = 0; i < row; i++) {
+//            for (int k = 0; k < column; k++) {
+//                averageCounter += numbers[i][k];
+//                loopsNumber++;
+//                System.out.print(averageCounter + " | ");
+//            }
+//            System.out.println();
+//        }
+//
+//        int average = averageCounter / loopsNumber;
+//        System.out.println("Total Values: " + averageCounter);
+//        System.out.println("Number of Iterations: " + loopsNumber);
+//        System.out.println("Average of Numbers: " + average);
+//
+//        String[][] names = new String[row][column];
+//        names[0][0] = "Mohamed";
+//        names[0][1] = "Ahmed";
+//        names[0][2] = "Ismail";
+//
+//        System.out.println("\n-----Names-----\n");
+//
+//        for (int i = 0; i < row; i++) {
+//            for (int k = 0; k < column; k++) {
+//                System.out.print(names[i][k] + " | ");
+//            }
+//            System.out.println();
+//        }
+//
+//        Scanner reader = new Scanner(System.in);
+//
+//        for (int i = 0; i < row; i++) {
+//            for (int k = 0; k < column; k++) {
+//                System.out.println("Enter New Value when Names is at index: " + "[" + i + "]" + "[" + k + "]");
+//                names[i][k] = reader.next();
+//            }
+//        }
+//
+//        for (int i = 0; i < row; i++) {
+//            for (int k = 0; k < column; k++) {
+//                System.out.print(names[i][k] + " | ");
+//            }
+//            System.out.println();
+//        }
 
-
-        for (int i = 0; i < row; i++) {
-            for (int k = 0; k < column; k++) {
-                System.out.print(numbers[i][k] + " | ");
-            }
-            System.out.println();
-        }
-
-        for (int i = 0; i < row; i++) {
-            for (int k = 0; k < column; k++) {
-                secondNums[i][k] = numbers[i][k] * numbers[i][k];
-            }
-        }
-
-        System.out.println("\n----(numbers^2)----\n");
-
-        for (int i = 0; i < row; i++) {
-            for (int k = 0; k < column; k++) {
-                System.out.print(secondNums[i][k] + " | ");
-            }
-            System.out.println();
-        }
-
-        System.out.println("\n----(Average of Numbers)----\n");
-
-        int averageCounter = 0;
-        int loopsNumber = 0;
-        for (int i = 0; i < row; i++) {
-            for (int k = 0; k < column; k++) {
-                averageCounter += numbers[i][k];
-                loopsNumber++;
-                System.out.print(averageCounter + " | ");
-            }
-            System.out.println();
-        }
-
-        int average = averageCounter / loopsNumber;
-        System.out.println("Total Values: " + averageCounter);
-        System.out.println("Number of Iterations: " + loopsNumber);
-        System.out.println("Average of Numbers: " + average);
-
-        String[][] names = new String[row][column];
-        names[0][0] = "Mohamed";
-        names[0][1] = "Ahmed";
-        names[0][2] = "Ismail";
-
-        System.out.println("\n-----Names-----\n");
-
-        for (int i = 0; i < row; i++) {
-            for (int k = 0; k < column; k++) {
-                System.out.print(names[i][k] + " | ");
-            }
-            System.out.println();
-        }
-
-        Scanner reader = new Scanner(System.in);
-
-        for (int i = 0; i < row; i++) {
-            for (int k = 0; k < column; k++) {
-                System.out.println("Enter New Value when Names is at index: " + "[" + i + "]" + "[" + k + "]");
-                names[i][k] = reader.next();
-            }
-        }
-
-        for (int i = 0; i < row; i++) {
-            for (int k = 0; k < column; k++) {
-                System.out.print(names[i][k] + " | ");
-            }
-            System.out.println();
-        }
-
+        Vehicle vehicle = new Vehicle(4, "Toyota", "Corolla");
+//        vehicle.
+        vehicle.printVehicle();
     }
 }
