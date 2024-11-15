@@ -1,5 +1,7 @@
 package yatzaqziq.lectureseven.lecture;
 
+import yatzaqziq.lectureseven.lecture.animal.Animal;
+import yatzaqziq.lectureseven.lecture.animal.Lion;
 import yatzaqziq.lectureseven.lecture.books.Book;
 import yatzaqziq.lectureseven.lecture.books.Story;
 import yatzaqziq.lectureseven.lecture.vehicles.Car;
@@ -50,9 +52,10 @@ public class Main {
             ((Story) book).printStory();
         }
 
+        Animal lion = new Lion(4, 2, "Brown", "Jack", "King of Forest");
+        lion.eat();
 
-
-//        book.p
+        lion.printAnimal();
 
     }
 }

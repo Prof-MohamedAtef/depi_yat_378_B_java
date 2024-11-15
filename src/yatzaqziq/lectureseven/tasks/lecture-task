@@ -4,4 +4,7 @@ Considering the Animals as the topic of this task:
 3. Let the child class inherit some attributes of the parent class Animal.
 4. print the important info about the child animal.
 5. use super keyword while working when passing data to the parent class.
-
+6. --- overriding ---
+6.1 Apply overriding between the parent and child class.
+6.2 Try to make a cast between objects using instanceof Object type.
+6.3 Ty to use the Super class reference while creating objects.
