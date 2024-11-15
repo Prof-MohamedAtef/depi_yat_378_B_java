@@ -22,7 +22,6 @@ public class Main {
 //        Vehicle ship = new Vehicle()
 
         Car car = new Car("BMW", "E-46", 4, "Black", 50350);
-
         car.printCarData();
 
         Ship ship = new Ship("RRRR", "ASAS", 5000, 15000);

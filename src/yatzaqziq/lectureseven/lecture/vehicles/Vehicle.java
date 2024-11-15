@@ -1,7 +1,6 @@
 package yatzaqziq.lectureseven.lecture.vehicles;
 
 public class Vehicle {
-    int wheels;
     String brand;
     String type;
     String model;
@@ -11,21 +10,11 @@ public class Vehicle {
 
     }
 
-    public Vehicle(int wheels, String brand, String type, String model, String color) {
-        this.wheels = wheels;
+    public Vehicle(String brand, String model, String color) {
         this.brand = brand;
-        this.type = type;
         this.model = model;
         this.color = color;
     }
-
-    public Vehicle(String brand, String type, String model, String color) {
-        this.brand = brand;
-        this.type = type;
-        this.model = model;
-        this.color = color;
-    }
-
 
     public Vehicle(String brand, String model){
         this.brand = brand;
@@ -33,6 +22,6 @@ public class Vehicle {
     }
 
     public void printVehicle(){
-        System.out.println("Vehicle Data: " + this.brand + " " + this.type + " " + this.model + " " + this.color);
+        System.out.println("Vehicle Data: " + this.brand + " " + this.model + " " + this.color);
     }
 }
