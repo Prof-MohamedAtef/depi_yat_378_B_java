@@ -4,8 +4,7 @@ public class Ship extends Vehicle {
     int weight;
     int mileage;
     public Ship(String brand, String model, int weight, int mileage) {
-        this.brand = brand;
-        this.model = model;
+        super(brand, model);
         this.weight = weight;
         this.mileage = mileage;
     }

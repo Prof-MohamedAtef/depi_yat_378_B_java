@@ -26,6 +26,12 @@ public class Vehicle {
         this.color = color;
     }
 
+
+    public Vehicle(String brand, String model){
+        this.brand = brand;
+        this.model = model;
+    }
+
     public void printVehicle(){
         System.out.println("Vehicle Data: " + this.brand + " " + this.type + " " + this.model + " " + this.color);
     }
