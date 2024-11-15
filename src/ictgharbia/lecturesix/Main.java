@@ -1,5 +1,7 @@
 package ictgharbia.lecturesix;
 
+import yatzaqziq.lectureseven.lecture.Book;
+import yatzaqziq.lectureseven.lecture.Story;
 import yatzaqziq.lectureseven.test.Vehicle;
 
 import java.time.DayOfWeek;
@@ -251,8 +253,15 @@ public class Main {
 //            System.out.println();
 //        }
 
-        Vehicle vehicle = new Vehicle(4, "Toyota", "Corolla");
-//        vehicle.
-        vehicle.printVehicle();
+//        Vehicle vehicle = new Vehicle(4, "Toyota", "Corolla");
+////        vehicle.
+//        vehicle.printVehicle();
+
+
+//        Book book = new Book();
+//        book.
+
+        Story story = new Story();
+        story.printStory();
     }
 }
