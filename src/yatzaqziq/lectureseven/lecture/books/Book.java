@@ -6,9 +6,13 @@ public class Book {
     String isbn;  // default access modifier  -- package private
     protected String publisherName;
 
+    Book(){
+        System.out.println("Book Constructor");
+    }
     void printTitle() {
 
     }
+
 
     public void calculatePrice(int pages, int pagePrice){
         System.out.println(pages * pagePrice);
