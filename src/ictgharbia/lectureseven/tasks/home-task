@@ -1,0 +1,52 @@
+Task 1: Vehicle Management System
+Apply inheritance and encapsulation to design a system for managing different types of vehicles.
+Instructions:
+1. Create a superclass called Vehicle:
+- Fields: make (String), model (String), year (int).
+- Encapsulate the fields with private access modifiers.
+- Provide getter and setter methods.
+- Add a method displayDetails() that prints the vehicle's details.
+2. Create two subclasses:
+- Car: Add a field fuelType (String, e.g., Petrol/Diesel/Electric) and a displayDetails()
+  method that overrides the Vehicle method and prints all details, including the fuel type.
+- Bike: Add a field engineCapacity (int, in cc) and override the displayDetails() method to include the engine capacity.
+3. In the main method:
+- Create instances of Car and Bike and set their values using the constructor or setters.
+- Call displayDetails() on each object.
+
+---------------------------
+Task 2: E-Commerce System
+Use polymorphism to design an e-commerce system for managing different types of
+Instructions:
+1. Create a superclass User:
+- Fields: username (String), email (String).
+- Add a method getRole() that returns "Generic User".
+- Add a method displayInfo() to display the user details.
+2. Create subclasses:
+- Customer: Add a field address (String) and override getRole() to return "Customer".
+- Admin: Add a field adminLevel (String, e.g., "Super Admin") and override getRole() to return "Admin".
+3. Create a main method:
+- Create a User array that contains a mix of Customer and Admin objects.
+- Use a loop to iterate through the array and call displayInfo() and getRole() on each object to demonstrate polymorphism.
+
+-------------------------
+Task 3: Employee Payroll System
+Combine inheritance, encapsulation, and polymorphism to simulate a payroll system.
+Instructions:
+1. Create an abstract superclass Employee:
+- Fields: name (String), id (int).
+- Encapsulate the fields with private access modifiers and add getters and setters.
+- Add an abstract method calculateSalary().
+2. Create subclasses:
+- FullTimeEmployee: Add fields for basicSalary and bonus. Implement calculateSalary() to return basicSalary + bonus.
+- PartTimeEmployee: Add fields for hourlyRate and hoursWorked. Implement calculateSalary() to return hourlyRate * hoursWorked.
+3. In the main method:
+- Create an array of Employee objects that includes both FullTimeEmployee and PartTimeEmployee.
+- Loop through the array, call calculateSalary(), and print the salary for each employee.
+
+
+-------------
+In all the last Three tasks, apply the following:
+1. use super keyword while working when passing data to the parent class.
+2. Try to make a cast between objects using instanceof Object type.
+3. Ty to use the Super class reference while creating objects.
