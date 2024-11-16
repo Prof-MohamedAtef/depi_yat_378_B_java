@@ -1,4 +1,4 @@
-package ictgharbia.lectureseven.lecture;
+package ictgharbia.lectureseven.lecture.book;
 
 public class Story extends Book {
 
