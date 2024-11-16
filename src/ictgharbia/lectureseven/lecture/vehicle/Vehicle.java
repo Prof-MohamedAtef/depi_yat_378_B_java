@@ -43,7 +43,7 @@ public class Vehicle {
         return model;
     }
 
-    Vehicle() {
+    public Vehicle() {
 
     }
 

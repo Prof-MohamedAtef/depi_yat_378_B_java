@@ -4,9 +4,9 @@ public class Book {
     String title;
     String author;
     String isbn;  // default access modifier  -- package private
-    protected String publisherName;
+    public String publisherName;
 
-    Book(){
+    public Book(){
         System.out.println("Book Constructor");
     }
     void printTitle() {

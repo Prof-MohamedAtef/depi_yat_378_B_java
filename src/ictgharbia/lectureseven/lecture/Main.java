@@ -3,7 +3,6 @@ package ictgharbia.lectureseven.lecture;
 import ictgharbia.lectureseven.lecture.book.Story;
 import ictgharbia.lectureseven.lecture.vehicle.Car;
 import ictgharbia.lectureseven.lecture.vehicle.Ship;
-import ictgharbia.lectureseven.lecture.vehicle.Vehicle;
 import ictgharbia.lectureseven.lecture.vehicle.engine.ElectricEngine;
 import ictgharbia.lectureseven.lecture.vehicle.engine.FuelEngine;
 
@@ -31,6 +30,10 @@ public class Main {
 
         Car carWithEngine = new Car(new FuelEngine(), "Mercedes", "Black", 2, "C300", 4);
         carWithEngine.print();
+
+//        Vehicle vehicle = new Vehicle();
+//        vehicle
+
 
     }
 }
