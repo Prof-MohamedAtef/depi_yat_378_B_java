@@ -11,18 +11,18 @@ public class Car extends Vehicle {
 
     public Car(int weight, String color, String brand, int wheels) {
         this.wheels = wheels;
-        this.weight = weight;
-        this.color = color;
-        this.brand = brand;
+        this.setWeight(weight);
+        this.setColor(color);
+        this.setBrand(brand);
     }
 
 
     public Car(Engine engineType, String brand, String color, int weight, String model, int wheels) {
-        this.brand = brand;
+        this.setBrand(brand);
         this.engine = engineType;
-        this.color = color;
-        this.weight = weight;
-        this.model = model;
+        this.setColor(color);
+        this.setWeight(weight);
+        this.setModel(model);
         this.wheels = wheels;
     }
 
@@ -38,7 +38,7 @@ public class Car extends Vehicle {
         }
 
         System.out.println(
-                "Vehicle data Weight:" + weight + " " + color + " " + brand + " " + model + " " + wheels + " Engine : " + this.type
+                "Vehicle data Weight:" + this.getWeight() + " " + getColor() + " " + getBrand() + " " + getModel() + " " + wheels + " Engine : " + this.type
         );
     }
 }

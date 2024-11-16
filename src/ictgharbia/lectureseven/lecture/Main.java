@@ -32,10 +32,5 @@ public class Main {
         Car carWithEngine = new Car(new FuelEngine(), "Mercedes", "Black", 2, "C300", 4);
         carWithEngine.print();
 
-
-
-
-
-
     }
 }

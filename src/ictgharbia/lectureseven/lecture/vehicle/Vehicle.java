@@ -4,12 +4,44 @@ package ictgharbia.lectureseven.lecture.vehicle;
 // Parent class
 // Super class
 public class Vehicle {
-    int weight;
-    String color;
-    String brand;
-    String model;
+    // access modifier  private - public - protected - default
+    private int weight;
+    private String color;
+    private String brand;
+    private String model;
     String type;
 
+    public void setWeight(int weight){
+        this.weight = weight;
+    }
+
+    public int getWeight() {
+        return weight;
+    }
+
+    public void setColor(String color){
+        this.color = color;
+    }
+
+    public String getColor(){
+        return color;
+    }
+
+    public void setBrand(String brand){
+        this.brand = brand;
+    }
+
+    public String getBrand(){
+        return brand;
+    }
+
+    public void setModel(String model){
+        this.model = model;
+    }
+
+    public String getModel(){
+        return model;
+    }
 
     Vehicle() {
 
