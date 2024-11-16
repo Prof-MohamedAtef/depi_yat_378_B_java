@@ -27,6 +27,12 @@ public class Story extends Book {
         super(year, title);
     }
 
+    public Story(double price, double shippingPrice, double printingPrice){
+        totalPrice = price;
+        shippingCosts = shippingPrice;
+        printingCosts = printingPrice;
+    }
+
     public void printStory() {
         System.out.println(
                 this.year + " " + this.title
@@ -40,9 +46,13 @@ public class Story extends Book {
         );
     }
 
-    // applying polymorphism
+    // applying polymorphism --> define method overriding -> method overloading
     public void printPrice(){
-
+        this.totalPrice += (this.shippingCosts + this.printingCosts);
+        System.out.println(
+                "Story Price including shipping and printing: " +
+                        this.totalPrice
+        );
     }
 
 

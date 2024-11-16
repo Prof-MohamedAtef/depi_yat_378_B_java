@@ -12,8 +12,9 @@ public class Main {
 //        Story story = new Story(2025,"Dar Misr", "Taha Hussein", "Al Ayam");
 //        story.printAllStory();
 
-        Story story = new Story(98.9);
+        Story story = new Story(98.9, 50, 25);
         story.printPrice();
+
 
 
 
