@@ -7,6 +7,8 @@ abstract public class Animal {
         this.name = name;
     }
 
+    Animal(){}
+
     abstract void sound(); // Abstract method
 
     void eat() {

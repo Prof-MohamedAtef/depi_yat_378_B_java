@@ -11,5 +11,13 @@ public class Main {
         Pet.description();
 
         dog.run();
+        Animal animal = new Animal() {
+            @Override
+            void sound() {
+                System.out.println("Hi, I am the sound of the animal");
+            }
+        };
+
+        animal.sound();
     }
 }

@@ -16,4 +16,9 @@ public interface Pet {
     default void run() {
         System.out.println("This animal is running.");
     }
+
+    default void isPlaying(){
+
+    }
 }
+
