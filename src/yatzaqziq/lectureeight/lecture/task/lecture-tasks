@@ -1,0 +1,52 @@
+Task1: Create an abstract Shape class.
+1. Implement both the Triangle and the Circle after extending from that Shape abstract class.
+2. Consider adding both the perimeter and area behavior to the circle and the triangle.
+--------------------
+Exercise 2: Payment Processing System
+Task:
+Create an abstract class named Payment with:
+
+Fields for amount and transactionId.
+An abstract method void processPayment().
+A concrete method void showPaymentDetails() that prints the transaction ID and amount.
+Create subclasses:
+
+CreditCardPayment with additional fields for cardNumber and cardHolderName. Implement processPayment() to print "Processing credit card payment for [cardHolderName]".
+PayPalPayment with an additional field for email. Implement processPayment() to print "Processing PayPal payment for [email]".
+Create a Main class to:
+
+Instantiate objects for both payment methods.
+Call showPaymentDetails() and processPayment().
+-----------------------
+Exercise 4: Online Shopping System
+Task:
+Create an abstract class Product with:
+
+Fields for name, price, and quantity.
+An abstract method double calculateTotalPrice().
+A concrete method void showProductDetails() to display name, price, and quantity.
+Create subclasses:
+
+Electronics with an additional field for warrantyPeriod and implement calculateTotalPrice() as price * quantity.
+Clothing with additional fields for size and material and implement calculateTotalPrice() as price * quantity with a 10% discount if the quantity exceeds 5.
+Create a Main class to:
+
+Create instances for Electronics and Clothing.
+Call showProductDetails() and calculateTotalPrice().
+------------------------------
+
+Exercise 5: Online Course Management
+Task:
+Create an abstract class Course with:
+
+Fields for courseName and duration.
+An abstract method void enrollStudent(String studentName).
+A concrete method void showCourseDetails() to display course name and duration.
+Create subclasses:
+
+ProgrammingCourse that maintains a list of enrolled students and implements enrollStudent() to add a student and print "Student [name] enrolled in Programming Course".
+DesignCourse that maintains a list of enrolled students and implements enrollStudent() to add a student and print "Student [name] enrolled in Design Course".
+Create a Main class to:
+
+Create instances for both course types.
+Enroll students and show course details.
