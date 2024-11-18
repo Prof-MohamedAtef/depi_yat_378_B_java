@@ -18,35 +18,21 @@ Create a Main class to:
 Instantiate objects for both payment methods.
 Call showPaymentDetails() and processPayment().
 -----------------------
-Exercise 4: Online Shopping System
-Task:
-Create an abstract class Product with:
 
-Fields for name, price, and quantity.
-An abstract method double calculateTotalPrice().
-A concrete method void showProductDetails() to display name, price, and quantity.
-Create subclasses:
 
-Electronics with an additional field for warrantyPeriod and implement calculateTotalPrice() as price * quantity.
-Clothing with additional fields for size and material and implement calculateTotalPrice() as price * quantity with a 10% discount if the quantity exceeds 5.
-Create a Main class to:
+Task 3: Payment Gateway System
+Objective: Implement multiple payment methods using an interface.
 
-Create instances for Electronics and Clothing.
-Call showProductDetails() and calculateTotalPrice().
-------------------------------
+Requirements:
+Create an interface PaymentGateway with the following methods:
 
-Exercise 5: Online Course Management
-Task:
-Create an abstract class Course with:
+void processPayment(double amount)
+void refundPayment(double amount)
+Create the following classes that implement the PaymentGateway interface:
 
-Fields for courseName and duration.
-An abstract method void enrollStudent(String studentName).
-A concrete method void showCourseDetails() to display course name and duration.
-Create subclasses:
+CreditCardPayment: Prints messages for processing and refunding a payment using credit cards.
+PayPalPayment: Prints messages for processing and refunding a payment using PayPal.
+Write a Main class to:
 
-ProgrammingCourse that maintains a list of enrolled students and implements enrollStudent() to add a student and print "Student [name] enrolled in Programming Course".
-DesignCourse that maintains a list of enrolled students and implements enrollStudent() to add a student and print "Student [name] enrolled in Design Course".
-Create a Main class to:
-
-Create instances for both course types.
-Enroll students and show course details.
+Create instances of CreditCardPayment and PayPalPayment.
+Call processPayment() and refundPayment() for both payment types
