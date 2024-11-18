@@ -16,17 +16,16 @@ public class Main {
         shirt.doReturn();
 
         Clothing c1 = new Trousers();
-//        c1.
+//        c1.d
         Trousers t1 = new Trousers();
-//        t1.
+//        t1.get
         Returnable r1 = new Shirt();
 //        r1.
+
         Returnable trousersReturn = new Trousers();
-//        r2.
-//        ((Trousers) r1).
-//        ((Trousers)r2).
+
         if (trousersReturn instanceof Trousers){
-//            ((Trousers)trousersReturn).
+            ((Trousers) trousersReturn).getGender();
         }
 
 

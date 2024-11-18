@@ -1,6 +1,5 @@
 package yatzaqziq.lectureeight.lecture;
 
-import yatzaqziq.lectureeight.lecture.listener.Printable;
 import yatzaqziq.lectureeight.lecture.listener.Toshiba;
 import yatzaqziq.lectureeight.lecture.listener.machine.print.PrintableI;
 import yatzaqziq.lectureeight.lecture.listener.machine.scanprint.ScannableI;

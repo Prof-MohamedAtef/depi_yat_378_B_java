@@ -6,4 +6,8 @@ public class Clothing {
     public int getPrice(){ return 0; }
     public int getSize(){ return 0; }
     public void getColor(){}
+
+    public String doReturn(){
+        return "";
+    }
 }

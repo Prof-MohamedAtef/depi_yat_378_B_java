@@ -1,6 +1,7 @@
 package yatzaqziq.lectureeight.lecture;
 
 import yatzaqziq.lectureeight.lecture.abstractmember.FourLegsAnimal;
+import yatzaqziq.lectureeight.lecture.listener.machine.closing.sheets.ClosableSheetsI;
 import yatzaqziq.lectureeight.lecture.listener.machine.closing.sheets.CloseSheet;
 import yatzaqziq.lectureeight.lecture.listener.machine.inc.Incking;
 import yatzaqziq.lectureeight.lecture.listener.machine.open.drawers.OpenDrawer;
@@ -33,6 +34,7 @@ public class Main {
         closeSheet.closeSheets();
         closeSheet.getUserResponse(true);
 
+
         OpenDrawer openingDrawers = new OpenDrawer();
         openingDrawers.openAFourDrawer();
 //        openingDrawers.
@@ -56,5 +58,8 @@ public class Main {
         };
 
         animal.run();
+
+
+
     }
 }
