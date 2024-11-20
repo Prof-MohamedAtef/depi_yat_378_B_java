@@ -5,6 +5,7 @@ import ictgharbia.lectureeight.lecture.listeners.animal.Dog;
 import ictgharbia.lectureeight.lecture.listeners.printing.Printer;
 import ictgharbia.lectureeight.lecture.listeners.printing.drawers.AFourDrawer;
 import ictgharbia.lectureeight.lecture.listeners.printing.drawers.AThreeDrawer;
+import ictgharbia.lectureeight.lecture.listeners.printing.drawers.listeners.IAFour;
 import ictgharbia.lectureeight.lecture.listeners.printing.drawers.listeners.IAThree;
 import ictgharbia.lectureeight.lecture.listeners.printing.ink.InkCartridge;
 import ictgharbia.lectureeight.lecture.listeners.printing.scan.Scanner;
@@ -59,8 +60,23 @@ public class Main {
         a4Drawer.printableAFourDocument();
         System.out.println(a4Drawer);
 //        a4Drawer.
+        IAFour iaFour = new AFourDrawer();
+//        iaFour.
 
+        boolean isA4 = a4Drawer.isA4Paper();
+        if (isA4) {
+            a4Drawer.callingScanner();
+        }else {
+            System.out.println("Not A4 Paper...");
+        }
 
+        AFourDrawer a4DrawerTwo = new AFourDrawer(iaFour);
+        isA4 = a4DrawerTwo.isA4Paper();
 
+        if (isA4) {
+            a4Drawer.callingScanner();
+        }else {
+            System.out.println("Not A4 Paper...");
+        }
     }
 }
