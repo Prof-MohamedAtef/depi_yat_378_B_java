@@ -16,9 +16,9 @@ public class Main {
         shirt.doReturn();
 
         Clothing c1 = new Trousers();
-//        c1.d
+//        c1.
         Trousers t1 = new Trousers();
-//        t1.get
+//        t1.
         Returnable r1 = new Shirt();
 //        r1.
 
