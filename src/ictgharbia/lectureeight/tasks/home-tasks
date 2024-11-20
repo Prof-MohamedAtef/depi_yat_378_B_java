@@ -1,0 +1,71 @@
+Abstract class:
+-----------
+Exercise 1: Online Shopping System
+Task:
+Create an abstract class Product with:
+
+Fields for name, price, and quantity.
+An abstract method double calculateTotalPrice().
+A concrete method void showProductDetails() to display name, price, and quantity.
+Create subclasses:
+
+Electronics with an additional field for warrantyPeriod and implement calculateTotalPrice() as price * quantity.
+Clothing with additional fields for size and material and implement calculateTotalPrice() as price * quantity with a 10% discount if the quantity exceeds 5.
+Create a Main class to:
+
+Create instances for Electronics and Clothing.
+Call showProductDetails() and calculateTotalPrice().
+------------------------------
+
+Exercise 2: Online Course Management
+Task:
+Create an abstract class Course with:
+
+Fields for courseName and duration.
+An abstract method void enrollStudent(String studentName).
+A concrete method void showCourseDetails() to display course name and duration.
+Create subclasses:
+
+ProgrammingCourse that maintains a list of enrolled students and implements enrollStudent() to add a student and print "Student [name] enrolled in Programming Course".
+DesignCourse that maintains a list of enrolled students and implements enrollStudent() to add a student and print "Student [name] enrolled in Design Course".
+Create a Main class to:
+
+Create instances for both course types.
+Enroll students and show course details.
+
+--------------
+interface:
+
+Task 1: Multiple Inheritance in Appliances
+Objective: Use interfaces to solve multiple inheritance.
+
+Requirements:
+Create the following interfaces:
+
+ElectricAppliance with a method void turnOn().
+WarrantyProvider with a method void provideWarranty().
+Create a WashingMachine class that implements both interfaces and:
+
+Prints "Washing machine turned on" for turnOn().
+Prints "2-year warranty provided" for provideWarranty().
+Write a Main class to:
+
+Create an instance of WashingMachine.
+Call both turnOn() and provideWarranty().
+---------
+Task 2: Animal Sound Simulation
+Objective: Use interfaces to define behaviors for animals.
+
+Requirements:
+Create an interface Animal with:
+
+A method void makeSound().
+Create the following classes that implement the Animal interface:
+
+Dog: Prints "Dog barks".
+Cat: Prints "Cat meows".
+Cow: Prints "Cow moos".
+Write a Main class to:
+
+Create a list of Animal objects containing instances of Dog, Cat, and Cow.
+Iterate through the list and call the makeSound() method for each object
