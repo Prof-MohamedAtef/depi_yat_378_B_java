@@ -61,7 +61,7 @@ public class Main {
         System.out.println(a4Drawer);
 //        a4Drawer.
         IAFour iaFour = new AFourDrawer();
-//        iaFour.
+        ((AFourDrawer) iaFour).detectPaperSize();
 
         boolean isA4 = a4Drawer.isA4Paper();
         if (isA4) {
